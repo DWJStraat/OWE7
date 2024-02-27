@@ -2,9 +2,7 @@ package org.blast;
 
 import org.biojava.nbio.ws.alignment.qblast.*;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class blast {
     private String sequence;
@@ -36,6 +34,24 @@ public class blast {
             data = service.getAlignmentResults(reqId, outprops);
             reader = new BufferedReader(new InputStreamReader(data));
         } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void output () {
+        System.out.println("Writing to file");
+        File f = new File("blast_output.txt");
+        try {
+            FileWriter fw = new FileWriter(f);
+            BufferedWriter bw = new BufferedWriter(fw);
+            String line;
+            while ((line = reader.readLine()) != null) {
+                bw.write(line);
+                bw.newLine();
+            }
+            bw.close();
+            System.out.println("Done writing to file");
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
