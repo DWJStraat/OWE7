@@ -19,8 +19,8 @@ public class FastaReader {
         StringBuilder sequence = new StringBuilder();
         String header = "";
         for (String line : contents.split("\n")) {
-            log.info("Reading line: " + line);
             if (line.startsWith(">")) {
+                log.info("Found header: " + line);
                 if (!sequence.isEmpty()) {
                     fastas.add(new Fasta(header, sequence.toString()));
                     sequence = new StringBuilder();
