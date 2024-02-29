@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Initial commit, wrote blast wrapper">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Wrote a Logger, added a Hit object for containing the BLAST results">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/logger/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/blast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,55 +26,47 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cx2UMZzRnqhryYamToehaQ2INJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.qodana",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.blastTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaCloudProjectLink">
     <option name="linkedProjectId" value="AGJVZ" />
     <option name="linkedProjectName" value="OWE7" />
     <option name="organizationId" value="ANn4G" />
     <option name="userId" value="AGoMZ" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="OWE7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="OWE7" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -92,7 +84,10 @@
       <option name="presentableId" value="Default" />
       <updated>1709038950826</updated>
       <workItem from="1709038952110" duration="364000" />
-      <workItem from="1709039501234" duration="3513000" />
+      <workItem from="1709039501234" duration="4685000" />
+      <workItem from="1709045137467" duration="2432000" />
+      <workItem from="1709111438581" duration="1321000" />
+      <workItem from="1709207456762" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -102,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709041492726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed the Maven errors">
+      <option name="closed" value="true" />
+      <created>1709043484180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709043484180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +113,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit, wrote blast wrapper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit, wrote blast wrapper" />
+    <MESSAGE value="Fixed the Maven errors" />
+    <MESSAGE value="confirmed to work" />
+    <MESSAGE value="Cleaned up blast.java, added Log.java" />
+    <MESSAGE value="Wrote a Logger, added a Hit object for containing the BLAST results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote a Logger, added a Hit object for containing the BLAST results" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
