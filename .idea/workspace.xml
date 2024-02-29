@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Wrote a Logger, added a Hit object for containing the BLAST results">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.fasta" afterDir="false" />
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Wrote tests for FASTA">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +34,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in OWE7" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -135,7 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709043484180</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Wrote first version of Fasta Reader">
+      <option name="closed" value="true" />
+      <created>1709214851436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709214851436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Wrote test for FastaReader">
+      <option name="closed" value="true" />
+      <created>1709214907060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709214907061</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed FastaReader">
+      <option name="closed" value="true" />
+      <created>1709215185385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709215185385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +174,11 @@
     <MESSAGE value="confirmed to work" />
     <MESSAGE value="Cleaned up blast.java, added Log.java" />
     <MESSAGE value="Wrote a Logger, added a Hit object for containing the BLAST results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote a Logger, added a Hit object for containing the BLAST results" />
+    <MESSAGE value="Wrote first version of Fasta Reader" />
+    <MESSAGE value="Wrote test for FastaReader" />
+    <MESSAGE value="Fixed FastaReader" />
+    <MESSAGE value="Wrote tests for FASTA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote tests for FASTA" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
