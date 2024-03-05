@@ -48,13 +48,13 @@ public class Blast {
 //        catch (InterruptedException e) {
 //            log.log(Level.SEVERE,"Thread interrupted {0}", e.getMessage());
 //            log.severe("Cause: " + e.getCause());
-//            log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
+//            e.printStackTrace();
 //            Thread.currentThread().interrupt();
 //        }
 //        catch (Exception e) {
 //            log.severe("Error occurred: " + e.getMessage());
 //            log.severe("Cause: " + e.getCause());
-//            log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
+//            e.printStackTrace();
 //        }
     }
 
