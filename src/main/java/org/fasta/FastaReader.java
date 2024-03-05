@@ -17,7 +17,6 @@ public class FastaReader {
 
     public FastaReader (String path, Boolean blast) throws IOException, InterruptedException {
         init(path);
-        // BLAST broken
         if (Boolean.TRUE.equals(blast)) {
             blast();
         }
