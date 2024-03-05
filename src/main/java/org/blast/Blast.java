@@ -1,12 +1,10 @@
 package org.blast;
 
-import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastAlignmentProperties;
-import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastOutputProperties;
-import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastService;
+import org.biojava.nbio.ws.alignment.qblast.*;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
+import org.fundamentals.Sequence;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -27,35 +25,47 @@ public class Blast {
     private BufferedReader reader = null;
     public final List<BlastHit> hits = new ArrayList<>();
 
-
     public Blast(String seq) throws InterruptedException {
-        log.log(Level.WARNING, "BLAST currently broken");
         sequence = seq;
+        props.setBlastProgram(BlastProgramEnum.blastp);
+        init();
+    }
+    public Blast(String seq, Sequence seqtype) throws InterruptedException {
+        sequence = seq;
+        props.setBlastProgram(seqtype.getBlastProgram());
+        System.out.println("Blast program: " + seqtype.getBlastProgram());
+        init();
+    }
+    public Blast(Sequence seq) throws InterruptedException{
+        sequence = seq.seq;
+        props.setBlastProgram(seq.getBlastProgram());
+        init();
+    }
 
-//        props.setBlastProgram(BlastProgramEnum.blastp);
-//        props.setBlastDatabase("nr");
-//        outprops.setOutputOption(BlastOutputParameterEnum.ALIGNMENTS, "200");
-//        try {
-//            reqId = service.sendAlignmentRequest(sequence, props);
-//            while (!service.isReady(reqId)) {
-//                log.log(Level.INFO, "Waiting for results for {0}. Sleeping for 5 seconds", reqId );
-//                Thread.sleep(5000);
-//            }
-//
-//            data = service.getAlignmentResults(reqId, outprops);
-//            reader = new BufferedReader(new InputStreamReader(data));
-//        }
-//        catch (InterruptedException e) {
-//            log.log(Level.SEVERE,"Thread interrupted {0}", e.getMessage());
-//            log.severe("Cause: " + e.getCause());
-//            e.printStackTrace();
-//            Thread.currentThread().interrupt();
-//        }
-//        catch (Exception e) {
-//            log.severe("Error occurred: " + e.getMessage());
-//            log.severe("Cause: " + e.getCause());
-//            e.printStackTrace();
-//        }
+    public void init() throws InterruptedException {
+        props.setBlastDatabase("nr");
+        outprops.setOutputOption(BlastOutputParameterEnum.ALIGNMENTS, "200");
+        try {
+            reqId = service.sendAlignmentRequest(sequence, props);
+            while (!service.isReady(reqId)) {
+                log.log(Level.INFO, "Waiting for results for {0}. Sleeping for 5 seconds", reqId );
+                Thread.sleep(5000);
+            }
+
+            data = service.getAlignmentResults(reqId, outprops);
+            reader = new BufferedReader(new InputStreamReader(data));
+        }
+        catch (InterruptedException e) {
+            log.log(Level.SEVERE,"Thread interrupted {0}", e.getMessage());
+            log.severe("Cause: " + e.getCause());
+            e.printStackTrace();
+            Thread.currentThread().interrupt();
+        }
+        catch (Exception e) {
+            log.severe("Error occurred: " + e.getMessage());
+            log.severe("Cause: " + e.getCause());
+            e.printStackTrace();
+        }
     }
 
     public void render () throws ParserConfigurationException, IOException, SAXException {

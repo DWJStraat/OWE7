@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Removed Log.java for clearer logs.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/blast/BlastTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fasta/FastaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.fasta" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.fasta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +34,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="better-logging" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -51,9 +58,13 @@
     "Application.BioJavaExample.executor": "Run",
     "Application.blastTest.executor": "Run",
     "JUnit.All in OWE7.executor": "Run",
+    "JUnit.BlastTest.testBlast.executor": "Debug",
+    "JUnit.BlastTest.testBlastDna.executor": "Run",
     "JUnit.FastaReaderTest.executor": "Run",
+    "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
+    "JUnit.FastaTest.testFastaBlast.executor": "Run",
     "Java Scratch.scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,18 +93,43 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.fasta" />
+      <recent name="org.blast" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="All in OWE7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BlastTest.testBlastDna">
+    <configuration name="BlastTest.testBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.blast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.blast" />
+      <option name="MAIN_CLASS_NAME" value="org.blast.BlastTest" />
+      <option name="METHOD_NAME" value="testBlast" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BlastTest.testBlastDna" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.blast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.blast" />
+      <option name="MAIN_CLASS_NAME" value="org.blast.BlastTest" />
+      <option name="METHOD_NAME" value="testBlastDna" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastaReaderTest.testFastaReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +139,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fasta" />
       <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testFastaReader" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,7 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReaderOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FastaTest.testFastaBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +170,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReaderOutput" />
+      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaTest" />
+      <option name="METHOD_NAME" value="testFastaBlast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlastTest.testBlastDna" />
         <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
-        <item itemvalue="JUnit.FastaReaderTest" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderOutput" />
-        <item itemvalue="JUnit.All in OWE7" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
+        <item itemvalue="JUnit.FastaReaderTest.testFastaReader" />
+        <item itemvalue="JUnit.FastaTest.testFastaBlast" />
+        <item itemvalue="JUnit.BlastTest.testBlast" />
       </list>
     </recent_temporary>
   </component>
