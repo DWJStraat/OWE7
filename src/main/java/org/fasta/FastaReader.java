@@ -33,20 +33,19 @@ public class FastaReader {
         log.log(Level.INFO, "Reading file: {0}", path);
         File file = new File(path);
         String contents = new String(java.nio.file.Files.readAllBytes(file.toPath()));
-        String sequence = "";
+        StringBuilder sequence = new StringBuilder();
         String header = "";
         for (String line : contents.split("\n")) {
             if (line.startsWith(">")) {
-                if (sequence != "") {
-                    log.info("Adding fasta: " + header);
-                    addFasta(header, sequence);
-                    sequence = "";
+                if (!sequence.toString().isEmpty()) {
+                    addFasta(header, sequence.toString());
+                    sequence = new StringBuilder();
                 }
                 header = line;
             } else {
-                line = line.replaceAll(" ", "");
-                line = line.replaceAll("\n", "");
-                sequence += line;
+                line = line.replace(" ", "");
+                line = line.replace("\n", "");
+                sequence.append(line);
             }
         }
         addFasta(header, sequence.toString());

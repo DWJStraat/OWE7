@@ -22,6 +22,6 @@ class FastaTest {
     void testFastaBlast() throws InterruptedException {
         Fasta fasta = new Fasta(">prot", "MAA");
         fasta.blast();
-        assertNotNull(fasta.blastObject);
+        assertNotNull(fasta.getBlastObject());
     }
 }

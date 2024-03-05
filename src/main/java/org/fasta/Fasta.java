@@ -5,11 +5,17 @@ import org.fundamentals.Sequence;
 
 public class Fasta {
     public final String head;
-    public Blast blastObject;
-    public Sequence sequence;
+
+    public Blast getBlastObject() {
+        return blastObject;
+    }
+
+    private Blast blastObject;
+    public final Sequence sequence;
     public Fasta (String header, String sequence) {
         head = header;
         this.sequence = new Sequence(sequence);
+        blastObject = null;
     }
 
 
