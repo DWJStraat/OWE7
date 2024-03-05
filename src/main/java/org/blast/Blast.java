@@ -1,6 +1,8 @@
 package org.blast;
 
-import org.biojava.nbio.ws.alignment.qblast.*;
+import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastAlignmentProperties;
+import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastOutputProperties;
+import org.biojava.nbio.ws.alignment.qblast.NCBIQBlastService;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -29,6 +31,7 @@ public class Blast {
     public Blast(String seq) throws InterruptedException {
         log.log(Level.WARNING, "BLAST currently broken");
         sequence = seq;
+
 //        props.setBlastProgram(BlastProgramEnum.blastp);
 //        props.setBlastDatabase("nr");
 //        outprops.setOutputOption(BlastOutputParameterEnum.ALIGNMENTS, "200");
@@ -43,12 +46,15 @@ public class Blast {
 //            reader = new BufferedReader(new InputStreamReader(data));
 //        }
 //        catch (InterruptedException e) {
-//            log.severe("Thread interrupted");
-//            throw new InterruptedException(e.getMessage());
+//            log.log(Level.SEVERE,"Thread interrupted {0}", e.getMessage());
+//            log.severe("Cause: " + e.getCause());
+//            log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
+//            Thread.currentThread().interrupt();
 //        }
 //        catch (Exception e) {
 //            log.severe("Error occurred: " + e.getMessage());
 //            log.severe("Cause: " + e.getCause());
+//            log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
 //        }
     }
 
