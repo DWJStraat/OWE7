@@ -25,12 +25,7 @@ public class FastaReader {
 
     public void blast () throws InterruptedException {
         for (Fasta fasta : fastas) {
-            try {
-                fasta.blast();
-            } catch (InterruptedException e) {
-                log.severe("Thread interrupted");
-                throw new InterruptedException(e.getMessage());
-            }
+            fasta.blast();
         }
     }
 
