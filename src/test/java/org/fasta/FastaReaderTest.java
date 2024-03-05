@@ -26,12 +26,5 @@ class FastaReaderTest {
         fastaReader.blast();
         assertEquals(2, fastaReader.fastas.size());
         System.out.println(fastaReader.fastas);
-
-}
-
-
-
-
-
-
+    }
 }

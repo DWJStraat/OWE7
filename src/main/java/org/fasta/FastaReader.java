@@ -1,14 +1,14 @@
 package org.fasta;
 
-import org.logger.Log;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class FastaReader {
-    private final Log log = new Log("org.fasta.FastaReader");
+    private final Logger log = Logger.getLogger("org.fasta.FastaReader");
     final List<Fasta> fastas = new ArrayList<>();
 
     public FastaReader(String path) throws IOException {
@@ -17,6 +17,7 @@ public class FastaReader {
 
     public FastaReader (String path, Boolean blast) throws IOException, InterruptedException {
         init(path);
+        // BLAST broken
         if (Boolean.TRUE.equals(blast)) {
             blast();
         }
@@ -27,21 +28,21 @@ public class FastaReader {
             try {
                 fasta.blast();
             } catch (InterruptedException e) {
-                log.error("Thread interrupted");
+                log.severe("Thread interrupted");
                 throw new InterruptedException(e.getMessage());
             }
         }
     }
 
     private void init (String path) throws IOException {
-        log.info("Reading file: " + path);
+        log.log(Level.INFO, "Reading file: {0}", path);
         File file = new File(path);
         String contents = new String(java.nio.file.Files.readAllBytes(file.toPath()));
         StringBuilder sequence = new StringBuilder();
         String header = "";
         for (String line : contents.split("\n")) {
             if (line.startsWith(">")) {
-                log.info("Found header: " + line);
+                log.log(Level.INFO, "Found header: {0}", line);
                 if (!sequence.isEmpty()) {
                     addFasta(header, sequence.toString());
                     sequence = new StringBuilder();
@@ -55,7 +56,7 @@ public class FastaReader {
     }
 
     private void addFasta(String header, String sequence) {
-        log.info("Adding fasta: " + header);
+        log.log(Level.INFO, "Adding fasta: {0}", header);
         fastas.add(new Fasta(header, sequence));
     }
 }
