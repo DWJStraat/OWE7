@@ -15,7 +15,7 @@ import java.util.List;
 
 public class Blast {
     private final String sequence;
-    private final Log log = new Log(Blast.class.getName());
+    private final Log log = new Log("org.blast.Blast");
     private final NCBIQBlastService service = new NCBIQBlastService();
     private final NCBIQBlastAlignmentProperties props = new NCBIQBlastAlignmentProperties();
     private final NCBIQBlastOutputProperties outprops = new NCBIQBlastOutputProperties();
@@ -63,15 +63,13 @@ public class Blast {
     public void output () throws IOException {
         log.info("Writing to file");
         File f = new File("blast_output.txt");
-        try {
-            FileWriter fw = new FileWriter(f);
-            BufferedWriter bw = new BufferedWriter(fw);
+        try (FileWriter fw = new FileWriter(f);
+             BufferedWriter bw = new BufferedWriter(fw)) {
             String line;
             while ((line = reader.readLine()) != null) {
                 bw.write(line);
                 bw.newLine();
             }
-            bw.close();
             
         } catch (IOException e) {
             throw new IOException(e);

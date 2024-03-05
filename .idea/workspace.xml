@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Wrote tests for FASTA">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fasta/FastaReaderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +35,8 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="All in OWE7" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -52,26 +48,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.blastTest.executor": "Run",
-    "JUnit.All in OWE7.executor": "Debug",
-    "JUnit.FastaReaderTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.blastTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in OWE7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReaderBlast.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaCloudProjectLink">
     <option name="linkedProjectId" value="AGJVZ" />
     <option name="linkedProjectName" value="OWE7" />
@@ -86,7 +83,7 @@
       <recent name="org.fasta" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FastaReaderTest.testFastaReaderBlast">
     <configuration name="All in OWE7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,8 +92,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FastaReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasta" />
+      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastaReaderTest.testFastaReaderBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasta" />
+      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
+      <option name="METHOD_NAME" value="testFastaReaderBlast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
+        <item itemvalue="JUnit.FastaReaderTest" />
         <item itemvalue="JUnit.All in OWE7" />
       </list>
     </recent_temporary>
@@ -121,6 +151,9 @@
       <workItem from="1709045137467" duration="2432000" />
       <workItem from="1709111438581" duration="1321000" />
       <workItem from="1709207456762" duration="3010000" />
+      <workItem from="1709284938242" duration="1620000" />
+      <workItem from="1709321107549" duration="3913000" />
+      <workItem from="1709635477090" duration="1118000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -162,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709215185385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Wrote tests for FASTA">
+      <option name="closed" value="true" />
+      <created>1709216977864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709216977864</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

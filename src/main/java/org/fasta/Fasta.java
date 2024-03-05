@@ -1,9 +1,11 @@
 package org.fasta;
 
+import org.blast.Blast;
+
 public class Fasta {
     public final String head;
     public final String seq;
-
+    public Blast blastObject;
     public String getType() {
         return type;
     }
@@ -22,6 +24,12 @@ public class Fasta {
             type = "DNA";
         }
     }
+
+    public void blast() throws InterruptedException {
+        blastObject = new Blast(seq);
+    }
+
+
 
 
 }
