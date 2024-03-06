@@ -1,32 +1,30 @@
 package org.fasta;
 
 import org.blast.Blast;
+import org.fundamentals.Sequence;
 
 public class Fasta {
     public final String head;
-    public final String seq;
-    public Blast blastObject;
-    public String getType() {
-        return type;
+
+    public Blast getBlastObject() {
+        return blastObject;
     }
 
-    private String type;
+    private Blast blastObject;
+    public final Sequence sequence;
     public Fasta (String header, String sequence) {
         head = header;
-        seq = sequence;
-        identifier();
+        this.sequence = new Sequence(sequence);
+        blastObject = null;
     }
 
-    private void identifier () {
-        if (seq.charAt(0) == 'M') {
-            type = "Protein";
-        } else {
-            type = "DNA";
-        }
+
+    public String getType() {
+        return sequence.toString();
     }
 
     public void blast() throws InterruptedException {
-        blastObject = new Blast(seq);
+        blastObject = new Blast(sequence);
     }
 
 

@@ -17,7 +17,6 @@ public class FastaReader {
 
     public FastaReader (String path, Boolean blast) throws IOException, InterruptedException {
         init(path);
-        // BLAST broken
         if (Boolean.TRUE.equals(blast)) {
             blast();
         }
@@ -37,13 +36,14 @@ public class FastaReader {
         String header = "";
         for (String line : contents.split("\n")) {
             if (line.startsWith(">")) {
-                log.log(Level.INFO, "Found header: {0}", line);
-                if (!sequence.isEmpty()) {
+                if (!sequence.toString().isEmpty()) {
                     addFasta(header, sequence.toString());
                     sequence = new StringBuilder();
                 }
                 header = line;
             } else {
+                line = line.replace(" ", "");
+                line = line.replace("\n", "");
                 sequence.append(line);
             }
         }
