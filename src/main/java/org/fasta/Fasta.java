@@ -27,6 +27,10 @@ public class Fasta {
         blastObject = new Blast(sequence);
     }
 
+    public void getOrfs() {
+
+    }
+
 
 
 
