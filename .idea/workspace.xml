@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Created Wrapper.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" afterDir="false" />
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Regex Broken">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,93 +48,124 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.blastTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in OWE7.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FastaReaderTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FastaReaderTest.testFastaReaderBlast.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FastaReaderTest.testFastaReaderOutput.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.blastTest.executor": "Run",
+    "JUnit.All in OWE7.executor": "Run",
+    "JUnit.FastaReaderTest.executor": "Run",
+    "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
+    "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
+    "JUnit.SequenceTest.complementReverse.executor": "Run",
+    "JUnit.SequenceTest.complementSequence.executor": "Run",
+    "JUnit.SequenceTest.executor": "Run",
+    "JUnit.SequenceTest.findOrf.executor": "Run",
+    "JUnit.SequenceTest.getOrfs.executor": "Run",
+    "JUnit.SequenceTest.regexTester.executor": "Run",
+    "JUnit.SequenceTest.reverse.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
-  <component name="QodanaCloudProjectLink">
-    <option name="linkedProjectId" value="AGJVZ" />
-    <option name="linkedProjectName" value="OWE7" />
-    <option name="organizationId" value="ANn4G" />
-    <option name="userId" value="AGoMZ" />
-  </component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.fundamentals" />
       <recent name="org.fasta" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FastaReaderTest.testFastaReaderBlast">
-    <configuration name="All in OWE7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FastaReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SequenceTest.findOrf">
+    <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
+          <option name="PATTERN" value="org.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReaderBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.complementSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
+          <option name="PATTERN" value="org.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReaderBlast" />
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="complementSequence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReaderOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.findOrf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
+          <option name="PATTERN" value="org.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReaderOutput" />
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="findOrf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceTest.getOrfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="getOrfs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SequenceTest.regexTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="regexTester" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
-        <item itemvalue="JUnit.FastaReaderTest" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderOutput" />
-        <item itemvalue="JUnit.All in OWE7" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
+        <item itemvalue="JUnit.SequenceTest.findOrf" />
+        <item itemvalue="JUnit.SequenceTest.regexTester" />
+        <item itemvalue="JUnit.SequenceTest.getOrfs" />
+        <item itemvalue="JUnit.SequenceTest" />
+        <item itemvalue="JUnit.SequenceTest.complementSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +206,7 @@
       <workItem from="1709635477090" duration="1118000" />
       <workItem from="1709808177570" duration="1162000" />
       <workItem from="1709813873238" duration="1783000" />
+      <workItem from="1709816694028" duration="6233000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -251,7 +284,8 @@
     <MESSAGE value="Fixed FastaReader" />
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Log.java for clearer logs." />
+    <MESSAGE value="Regex Broken" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regex Broken" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
