@@ -34,8 +34,9 @@ class SequenceTest {
     @Test
     void getOrgHits() {
         Matcher m = seq.findOrf("FFFATGATGAAATAGFFFATGAAATAG");
-        while (m.find()) {
-            System.out.println(m.group());
-        }
+        m.find();
+        assertEquals("ATGATGAAATAG", m.group());
+        m.find();
+        assertEquals("ATGAAATAG", m.group());
     }
 }

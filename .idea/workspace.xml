@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Regex Broken">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Small Regex test fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="config" />
+        <entry key="$PROJECT_DIR$" value="8bfa83991e3b4643f805e03fbd0b9f8cce5f3357" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,22 +94,7 @@
       <recent name="org.fasta" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceTest.complementReverse">
-    <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SequenceTest.getOrgHits">
     <configuration name="SequenceTest.complementReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -160,6 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SequenceTest.getOrgHits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="getOrgHits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SequenceTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SequenceTest.getOrgHits" />
         <item itemvalue="JUnit.SequenceTest.complementReverse" />
         <item itemvalue="JUnit.SequenceTest.complementSequence" />
         <item itemvalue="JUnit.SequenceTest.reverse" />
         <item itemvalue="JUnit.SequenceTest.getOrfs" />
-        <item itemvalue="JUnit.SequenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709216977864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FIxed Regex">
+      <option name="closed" value="true" />
+      <created>1710243874002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710243874002</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,9 @@
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
     <MESSAGE value="Regex Broken" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regex Broken" />
+    <MESSAGE value="FIxed Regex" />
+    <MESSAGE value="Small Regex test fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small Regex test fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
