@@ -45,12 +45,12 @@ public class Sequence {
         }
     }
 
-    public boolean findOrf (String seq) {
+    public Matcher findOrf (String seq) {
+        String regex = "(A[TU]G(?:.{3})+?[TU](?:AG|AA|GA))";
         Pattern orfPattern = Pattern.compile(
-                "A"
+                regex
         );
-        Matcher m = orfPattern.matcher("A");
-        return m.find();
+        return orfPattern.matcher(seq);
     }
 
     public String reverse (String seq) {
@@ -61,16 +61,16 @@ public class Sequence {
     }
 
     public String complementSequence (String seq) {
-        String output = "";
+        StringBuilder output = new StringBuilder();
         for(int i =0; i < seq.length(); i++){
-            output += complement(seq.charAt(i));
+            output.append(complement(seq.charAt(i)));
         }
-        return output;
+        return output.toString();
     }
 
     private String complement (Character a) {
         return switch (a.toString()) {
-            case "A" -> "T";
+            case "A" -> "U";
             case "T" -> "A";
             case "C" -> "G";
             case "G" -> "C";

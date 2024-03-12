@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Regex Broken">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +56,18 @@
     "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
     "JUnit.SequenceTest.complementReverse.executor": "Run",
     "JUnit.SequenceTest.complementSequence.executor": "Run",
+    "JUnit.SequenceTest.exampleHits.executor": "Run",
     "JUnit.SequenceTest.executor": "Run",
     "JUnit.SequenceTest.findOrf.executor": "Run",
     "JUnit.SequenceTest.getOrfs.executor": "Run",
+    "JUnit.SequenceTest.getOrgHits.executor": "Run",
     "JUnit.SequenceTest.regexTester.executor": "Run",
     "JUnit.SequenceTest.reverse.executor": "Run",
+    "Java Scratch.RegexMatches (1).executor": "Run",
+    "Java Scratch.RegexMatches.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -78,6 +82,7 @@
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
       "PLAIN_TEXT"
     ]
   }
@@ -91,7 +96,7 @@
       <recent name="org.fasta" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceTest.findOrf">
+  <component name="RunManager" selected="JUnit.SequenceTest.complementReverse">
     <configuration name="SequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -107,6 +112,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SequenceTest.complementReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
+      <option name="METHOD_NAME" value="complementReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SequenceTest.complementSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -118,22 +139,6 @@
       <option name="PACKAGE_NAME" value="org.fundamentals" />
       <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
       <option name="METHOD_NAME" value="complementSequence" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SequenceTest.findOrf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="findOrf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,7 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.regexTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SequenceTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +170,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
       <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="regexTester" />
+      <option name="METHOD_NAME" value="reverse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SequenceTest.findOrf" />
-        <item itemvalue="JUnit.SequenceTest.regexTester" />
+        <item itemvalue="JUnit.SequenceTest.complementReverse" />
+        <item itemvalue="JUnit.SequenceTest.complementSequence" />
+        <item itemvalue="JUnit.SequenceTest.reverse" />
         <item itemvalue="JUnit.SequenceTest.getOrfs" />
         <item itemvalue="JUnit.SequenceTest" />
-        <item itemvalue="JUnit.SequenceTest.complementSequence" />
       </list>
     </recent_temporary>
   </component>
