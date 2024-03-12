@@ -14,7 +14,7 @@ public class Fasta {
 
     private Blast blastObject;
 
-    private ArrayList<Blast> blastArrayList = new ArrayList<>();
+    private final ArrayList<Blast> blastArrayList = new ArrayList<>();
     public final Sequence sequence;
     public Fasta (String header, String sequence) {
         head = header;
@@ -22,6 +22,9 @@ public class Fasta {
         blastObject = null;
     }
 
+    public String getName() {
+        return head;
+    }
 
     public String getType() {
         return sequence.toString();
@@ -40,6 +43,9 @@ public class Fasta {
 //    }
 
 
+    public String getHash() {
+        return Integer.toString(Integer.parseInt(sequence.getHash())+ head.hashCode());
+    }
 
 
 }
