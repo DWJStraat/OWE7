@@ -3,6 +3,8 @@ package org.blast;
 import org.fundamentals.Sequence;
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BlastTest {
@@ -17,6 +19,13 @@ class BlastTest {
         Sequence seq = new Sequence("aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg");
         Blast blast = new Blast(seq);
         assertNotNull(blast);
+    }
+
+    @Test
+    void testBlastOutput() throws InterruptedException, IOException {
+        Sequence seq = new Sequence("aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg");
+        Blast blast = new Blast(seq);
+        blast.output();
     }
 
 }

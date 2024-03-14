@@ -64,7 +64,7 @@ public class Sequence {
         StringBuilder output = new StringBuilder();
         for(int i =0; i < seq.length(); i++){
             output.append(complement(seq.charAt(i)));
-        }
+         }
         return output.toString();
     }
 
