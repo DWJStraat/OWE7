@@ -45,13 +45,19 @@ public class Blast {
     }
 
     public void init() throws InterruptedException {
+        int sleepyTime = 5000;
         props.setBlastDatabase("nr");
         outprops.setOutputOption(BlastOutputParameterEnum.ALIGNMENTS, "200");
         try {
             reqId = service.sendAlignmentRequest(sequence, props);
+            if (reqId != null) {
+                reqId = service.sendAlignmentRequest(sequence, props);
+            }
             while (!service.isReady(reqId)) {
-                log.log(Level.INFO, "Waiting for results for {0}. Sleeping for 5 seconds", reqId );
-                Thread.sleep(5000);
+                log.log(Level.INFO, "Waiting for results for {0}.", reqId);
+                log.log(Level.INFO, "Sleeping for {0}ms", sleepyTime);
+                Thread.sleep(sleepyTime);
+                sleepyTime = sleepyTime + sleepyTime/5;
             }
 
             data = service.getAlignmentResults(reqId, outprops);
@@ -64,6 +70,9 @@ public class Blast {
             Thread.currentThread().interrupt();
         }
         catch (Exception e) {
+            if (reqId == null) {
+                log.severe("Request ID is null");
+            }
             log.severe("Error occurred: " + e.getMessage());
             log.severe("Cause: " + e.getCause());
             e.printStackTrace();

@@ -65,4 +65,7 @@ public class createWindow {
         frame.dispose();
     }
 
+    public void setDefaultCloseOperation(int exitOnClose) {
+        frame.setDefaultCloseOperation(exitOnClose);
+    }
 }

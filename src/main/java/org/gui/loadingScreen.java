@@ -7,15 +7,14 @@ import javax.swing.*;
 public class loadingScreen {
     private static final createWindow window = new createWindow("Loading", 200, 250);
     private static final JPanel visual = new JPanel();
-    private static final JLabel label = new JLabel("Loading...", SwingConstants.CENTER);
+    public static final JLabel label = new JLabel("Loading...");
     private static final JButton next = new JButton("Export");
     public static void Main() {
         build();
     }
 
     private static void build() {
-        visual.setBackground(java.awt.Color.WHITE);
-        window.add(label, 10, 10, 150, 40);
+        window.add(label, 10, 10, 140, 40);
         window.show();
     }
 
