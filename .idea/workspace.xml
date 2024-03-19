@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Small Regex test fix">
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Expanded BLAST wrapper">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/drop.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/SequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +26,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="8bfa83991e3b4643f805e03fbd0b9f8cce5f3357" />
+        <entry key="$PROJECT_DIR$" value="GUI" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -47,55 +55,57 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BioJavaExample.executor": "Run",
     "Application.blastTest.executor": "Run",
+    "Application.main.executor": "Run",
     "JUnit.All in OWE7.executor": "Run",
+    "JUnit.BlastTest.testBlast.executor": "Debug",
+    "JUnit.BlastTest.testBlastDna.executor": "Run",
+    "JUnit.DatabaseTest.connect.executor": "Debug",
+    "JUnit.DatabaseTest.create.executor": "Run",
+    "JUnit.DatabaseTest.destroy.executor": "Run",
+    "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.DatabaseTest.get.executor": "Run",
+    "JUnit.DatabaseTest.idTest.executor": "Run",
+    "JUnit.DatabaseTest.removeTest.executor": "Run",
+    "JUnit.DatabaseTest.saveTest.executor": "Run",
     "JUnit.FastaReaderTest.executor": "Run",
+    "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
-    "JUnit.SequenceTest.complementReverse.executor": "Run",
-    "JUnit.SequenceTest.complementSequence.executor": "Run",
-    "JUnit.SequenceTest.exampleHits.executor": "Run",
-    "JUnit.SequenceTest.executor": "Run",
-    "JUnit.SequenceTest.findOrf.executor": "Run",
-    "JUnit.SequenceTest.getOrfs.executor": "Run",
-    "JUnit.SequenceTest.getOrgHits.executor": "Run",
-    "JUnit.SequenceTest.regexTester.executor": "Run",
-    "JUnit.SequenceTest.reverse.executor": "Run",
-    "Java Scratch.RegexMatches (1).executor": "Run",
-    "Java Scratch.RegexMatches.executor": "Run",
+    "JUnit.FastaTest.testFastaBlast.executor": "Run",
+    "Java Scratch.scratch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA",
-      "PLAIN_TEXT"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\OWE7\src\main\resources\config" />
+      <recent name="E:\GitHub\OWE7" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.fundamentals" />
       <recent name="org.fasta" />
+      <recent name="org.blast" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SequenceTest.getOrgHits">
-    <configuration name="SequenceTest.complementReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatabaseTest.idTest">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +114,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="complementReverse" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.complementSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.idTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +145,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="complementSequence" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="idTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.getOrfs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +161,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="getOrfs" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceTest.getOrgHits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -152,24 +177,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="getOrgHits" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SequenceTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.SequenceTest" />
-      <option name="METHOD_NAME" value="reverse" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="saveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SequenceTest.getOrgHits" />
-        <item itemvalue="JUnit.SequenceTest.complementReverse" />
-        <item itemvalue="JUnit.SequenceTest.complementSequence" />
-        <item itemvalue="JUnit.SequenceTest.reverse" />
-        <item itemvalue="JUnit.SequenceTest.getOrfs" />
+        <item itemvalue="JUnit.DatabaseTest.idTest" />
+        <item itemvalue="JUnit.DatabaseTest.saveTest" />
+        <item itemvalue="JUnit.DatabaseTest.removeTest" />
+        <item itemvalue="JUnit.DatabaseTest.get" />
+        <item itemvalue="JUnit.DatabaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,9 +217,7 @@
       <workItem from="1709284938242" duration="1620000" />
       <workItem from="1709321107549" duration="3913000" />
       <workItem from="1709635477090" duration="1118000" />
-      <workItem from="1709808177570" duration="1162000" />
-      <workItem from="1709813873238" duration="1783000" />
-      <workItem from="1709816694028" duration="6233000" />
+      <workItem from="1710842677044" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -260,15 +267,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709216977864</updated>
     </task>
-    <task id="LOCAL-00007" summary="FIxed Regex">
+    <task id="LOCAL-00007" summary="Removed Log.java for clearer logs.">
       <option name="closed" value="true" />
-      <created>1710243874002</created>
+      <created>1709641219162</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1710243874002</updated>
+      <updated>1709641219162</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Did a lot of database stuff">
+      <option name="closed" value="true" />
+      <created>1710425024188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425024188</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Expanded BLAST wrapper">
+      <option name="closed" value="true" />
+      <created>1710844678017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710844678017</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +319,9 @@
     <MESSAGE value="Fixed FastaReader" />
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
-    <MESSAGE value="Regex Broken" />
-    <MESSAGE value="FIxed Regex" />
-    <MESSAGE value="Small Regex test fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small Regex test fix" />
+    <MESSAGE value="Did a lot of database stuff" />
+    <MESSAGE value="Expanded BLAST wrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded BLAST wrapper" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
