@@ -1,5 +1,6 @@
 package org.blast;
 
+import org.fundamentals.Database;
 import org.w3c.dom.Node;
 
 public class BlastHit{
@@ -11,7 +12,8 @@ public class BlastHit{
     public final int gaps;
     public final int length;
     public final String accession;
-    public BlastHit (Node node) {
+    public final String seq;
+    public BlastHit (Node node, String sequence) {
         // parse the XML node and populate the object
         bitScore = Float.parseFloat(node.getAttributes().getNamedItem("bit_score").getNodeValue());
         score = Integer.parseInt(node.getAttributes().getNamedItem("score").getNodeValue());
@@ -21,10 +23,11 @@ public class BlastHit{
         gaps = Integer.parseInt(node.getAttributes().getNamedItem("gaps").getNodeValue());
         length = Integer.parseInt(node.getAttributes().getNamedItem("length").getNodeValue());
         accession = node.getAttributes().getNamedItem("accession").getNodeValue();
+        seq = sequence;
     }
 
-//    public void toDb(){
-//        // save the object to the database
-//        Database.saveBlastHit(this);
-//    }
+    public void toDb(){
+        // save the object to the database
+        Database.saveBlastHit(this);
+    }
 }

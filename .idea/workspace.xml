@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Removed Log.java for clearer logs.">
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Did a lot of database stuff">
       <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/blobs/version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config.jsontemplate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/create.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/sql/drop.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/ConfigTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/blast/BlastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/blast/BlastTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +62,10 @@
     "JUnit.DatabaseTest.connect.executor": "Debug",
     "JUnit.DatabaseTest.create.executor": "Run",
     "JUnit.DatabaseTest.destroy.executor": "Run",
+    "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.DatabaseTest.get.executor": "Run",
+    "JUnit.DatabaseTest.removeTest.executor": "Run",
+    "JUnit.DatabaseTest.saveTest.executor": "Run",
     "JUnit.FastaReaderTest.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
     "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
@@ -83,6 +77,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,8 +101,8 @@
       <recent name="org.blast" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.create">
-    <configuration name="DatabaseTest.connect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DatabaseTest.removeTest">
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
       <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
-      <option name="METHOD_NAME" value="connect" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.destroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
@@ -149,39 +143,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.fundamentals" />
       <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
-      <option name="METHOD_NAME" value="destroy" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.removeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
+          <option name="PATTERN" value="org.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReader" />
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="removeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReaderBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
+          <option name="PATTERN" value="org.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReaderBlast" />
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="saveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseTest.removeTest" />
+        <item itemvalue="JUnit.DatabaseTest.saveTest" />
+        <item itemvalue="JUnit.DatabaseTest.get" />
+        <item itemvalue="JUnit.DatabaseTest" />
         <item itemvalue="JUnit.DatabaseTest.create" />
-        <item itemvalue="JUnit.DatabaseTest.destroy" />
-        <item itemvalue="JUnit.DatabaseTest.connect" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReader" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +214,7 @@
       <workItem from="1709284938242" duration="1620000" />
       <workItem from="1709321107549" duration="3913000" />
       <workItem from="1709635477090" duration="1118000" />
+      <workItem from="1710842677044" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -277,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709641219162</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Did a lot of database stuff">
+      <option name="closed" value="true" />
+      <created>1710425024188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710425024188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +308,8 @@
     <MESSAGE value="Fixed FastaReader" />
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Log.java for clearer logs." />
+    <MESSAGE value="Did a lot of database stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did a lot of database stuff" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

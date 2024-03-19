@@ -1,10 +1,15 @@
 package org.fundamentals;
 
+import org.blast.BlastHit;
+
 import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -25,6 +30,8 @@ public class Database {
             conn = DriverManager.getConnection(
                     "jdbc:mariadb://" + url + "/" + db, user, password
             );
+            conn.setAutoCommit(true);
+            conn.setSchema(db);
         } catch (SQLException e) {
             if(e.getMessage().startsWith("No suitable driver found for")){
                 log.log(Level.SEVERE, "Error: {}", e.getMessage());
@@ -73,7 +80,7 @@ public class Database {
     }
 
     public static void query(Connection conn, String query) {
-        query = "USE " + db + "; " + query;
+//        query = "USE " + db + "; " + query;
         log.log(Level.INFO, "Executing query: {0}", query);
         try {
             conn.createStatement().execute(query);
@@ -82,6 +89,56 @@ public class Database {
             log.log(Level.SEVERE, "" + e.getCause());
             log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
         }
+    }
+
+    public static void save(String Table, String[] columns, String[] values) {
+        StringBuilder query = new StringBuilder("INSERT INTO " + Table + " (");
+        for (String column : columns) {
+            query.append(column).append(", ");
+        }
+        query.setLength(query.length() - 2);
+        query.append(") VALUES (");
+        for (String value : values) {
+            query.append(value).append(", ");
+        }
+        query.setLength(query.length() - 2);
+        query.append(");");
+        execute(query.toString());
+    }
+
+    public static void save(String Table, String columsn, String values){
+        String[] columns = columsn.split(",");
+        String[] vals = values.split(",");
+        save(Table, columns, vals);
+    }
+
+    public static void remove(String Table, String condition) {
+        String query = "DELETE FROM " + Table + " WHERE " + condition + ";";
+        execute(query);
+    }
+
+    public static List<String> get(String query) {
+        Connection conn = connect();
+        ResultSet data;
+        List<String> results = new ArrayList<>();
+        try {
+            data = conn.createStatement().executeQuery(query);
+            while (data.next()) {
+                StringBuilder row = new StringBuilder();
+                for (int i = 1; i <= data.getMetaData().getColumnCount(); i++) {
+                    row.append(data.getString(i)).append("|");
+                }
+                row.setLength(row.length() - 1);
+                results.add(row.toString());
+            }
+
+        } catch (SQLException e) {
+            log.log(Level.SEVERE, "An error occurred :" + e);
+            log.log(Level.SEVERE, "" + e.getCause());
+            log.log(Level.SEVERE, Arrays.toString(e.getStackTrace()));
+        }
+        close(conn);
+        return results;
     }
 
     public static void execute(String query) {
@@ -127,10 +184,9 @@ public class Database {
         close(conn);
     }
 
-//    public static void saveBlastHit(BlastHit blastHit) {
-//        String query = "INSERT INTO blast
-//        execute(query);
-//    }
+    public static void saveBlastHit(BlastHit blastHit) {
+
+    }
 
 // todo: add a method that builds or drops the database
 

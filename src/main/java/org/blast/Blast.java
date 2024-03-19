@@ -75,7 +75,7 @@ public class Blast {
         NodeList xmlhits = doc.getElementsByTagName("Hit");
 
         for (int i = 0; i < xmlhits.getLength(); i++) {
-            hits.add(new BlastHit(xmlhits.item(i)));
+            hits.add(new BlastHit(xmlhits.item(i), sequence));
         }
     }
 
