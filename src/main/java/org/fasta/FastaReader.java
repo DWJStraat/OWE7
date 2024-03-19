@@ -54,4 +54,32 @@ public class FastaReader {
         log.log(Level.INFO, "Adding fasta: {0}", header);
         fastas.add(new Fasta(header, sequence));
     }
+
+    public String[] getNames() {
+        String[] names = new String[fastas.size()];
+        for (int i = 0; i < fastas.size(); i++) {
+            names[i] = fastas.get(i).getName();
+        }
+        return names;
+    }
+
+    public List<Fasta> getFastas() {
+        return fastas;
+    }
+
+    public String getHash() {
+        StringBuilder hash = new StringBuilder();
+        for (Fasta fasta : fastas) {
+            hash.append(fasta.getHash());
+        }
+        return hash.toString();
+    }
+
+    public Integer ORFs(){
+        int count = 0;
+        for (Fasta fasta : fastas) {
+            count += fasta.sequence.getOrfs().size();
+        }
+        return count;
+    }
 }

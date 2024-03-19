@@ -39,17 +39,15 @@ public class Sequence {
 
     private void orfAdder(String seq){
         Matcher hits = findOrf(seq);
-        System.out.println(hits);
         while(hits.find()){
             orfs.add(hits.group());
         }
     }
 
     public Matcher findOrf (String seq) {
-        String regex = "(A[TU]G(?:.{3})+?[TU](?:AG|AA|GA))";
+        String regex = "(?=(A[TU]G(?:.{3})+?[TU](?:AG|AA|GA)))";
         Pattern orfPattern = Pattern.compile(
-                regex
-        );
+                regex, Pattern.CASE_INSENSITIVE);
         return orfPattern.matcher(seq);
     }
 
@@ -89,4 +87,7 @@ public class Sequence {
         return type;
     }
 
+    public String getHash() {
+        return Integer.toString(seq.hashCode());
+    }
 }
