@@ -13,8 +13,16 @@ public class ExportScreen {
     }
 
     public static void build() {
+        exportBuild();
 
         window.show();
 
+    }
+
+    private static void exportBuild() {
+        export.addActionListener(e -> {
+            window.close();
+        });
+        window.add(export, 10, 10, 150, 40);
     }
 }

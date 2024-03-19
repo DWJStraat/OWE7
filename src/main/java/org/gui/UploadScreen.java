@@ -42,10 +42,8 @@ public class UploadScreen {
                 FastaBucket.add(openFile.reader);
             } catch (IOException ex) {
                 window.error("No File Selected");
-                log.log(Level.SEVERE, "No file selected", ex);
             } catch (IllegalArgumentException ex) {
                 window.error("File already loaded");
-                log.log(Level.SEVERE, "File already loaded", ex);
             } catch (RuntimeException ex) {
                 window.error(ex.getMessage());
                 log.log(Level.SEVERE, "An error occurred : {0}", ex);

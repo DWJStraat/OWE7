@@ -58,6 +58,16 @@ public class FastaBucket {
     }
 
     public static void blast() throws InterruptedException {
+        Thread blasting = new Thread(() -> {
+            try {
+                blastThread();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+    public static void blastThread() throws InterruptedException {
         for (FastaReader o : fastaList) {
             o.blast();
         }
