@@ -1,10 +1,12 @@
 package org.blast;
 
 import org.biojava.nbio.ws.alignment.qblast.*;
+import org.fundamentals.Database;
+import org.fundamentals.Sequence;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import org.fundamentals.Sequence;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -15,7 +17,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Blast {
-    private final String sequence;
+    public final String sequence;
     private final Logger log = Logger.getLogger("org.blast.Blast");
     private final NCBIQBlastService service = new NCBIQBlastService();
     private final NCBIQBlastAlignmentProperties props = new NCBIQBlastAlignmentProperties();
@@ -93,5 +95,9 @@ public class Blast {
         } catch (IOException e) {
             throw new IOException(e);
         }
+    }
+
+    public void save() {
+        Database.saveBlast(this);
     }
 }

@@ -1,6 +1,5 @@
 package org.blast;
 
-import org.fundamentals.Database;
 import org.w3c.dom.Node;
 
 public class BlastHit{
@@ -26,8 +25,5 @@ public class BlastHit{
         seq = sequence;
     }
 
-    public void toDb(){
-        // save the object to the database
-        Database.saveBlastHit(this);
-    }
+
 }

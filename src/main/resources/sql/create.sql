@@ -1,5 +1,5 @@
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2024-03-14 13:48:23.89
+-- Last modification date: 2024-03-19 11:09:05.471
 
 -- tables
 -- Table: blast_results
@@ -19,10 +19,7 @@ CREATE TABLE blast_results (
 -- Table: orfs
 CREATE TABLE orfs (
                       orf_id int  NOT NULL,
-                      start_pos int  NOT NULL,
-                      end_pos int  NOT NULL,
-                      strandedness Char  NOT NULL,
-                      seq_id int  NOT NULL,
+                      seq text  NOT NULL,
                       hash int  NOT NULL,
                       sequence_seq_id int  NOT NULL,
                       CONSTRAINT orfs_pk PRIMARY KEY (orf_id)
@@ -40,6 +37,13 @@ CREATE TABLE sequence (
                           seq_id int  NOT NULL,
                           sequence text  NOT NULL,
                           CONSTRAINT sequence_pk PRIMARY KEY (seq_id)
+);
+
+-- Table: test
+CREATE TABLE test (
+                      id int  NOT NULL,
+                      vak int  NOT NULL,
+                      CONSTRAINT id PRIMARY KEY (id)
 );
 
 -- foreign keys

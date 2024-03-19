@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Did a lot of database stuff">
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Expanded BLAST wrapper">
       <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/sql/drop.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/BlastHit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/create.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +66,7 @@
     "JUnit.DatabaseTest.destroy.executor": "Run",
     "JUnit.DatabaseTest.executor": "Run",
     "JUnit.DatabaseTest.get.executor": "Run",
+    "JUnit.DatabaseTest.idTest.executor": "Run",
     "JUnit.DatabaseTest.removeTest.executor": "Run",
     "JUnit.DatabaseTest.saveTest.executor": "Run",
     "JUnit.FastaReaderTest.executor": "Run",
@@ -101,7 +104,7 @@
       <recent name="org.blast" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest.removeTest">
+  <component name="RunManager" selected="JUnit.DatabaseTest.idTest">
     <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -117,22 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DatabaseTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OWE7" />
       <extension name="coverage">
@@ -144,6 +131,22 @@
       <option name="PACKAGE_NAME" value="org.fundamentals" />
       <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
       <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.idTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fundamentals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fundamentals" />
+      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
+      <option name="METHOD_NAME" value="idTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest.removeTest" />
+        <item itemvalue="JUnit.DatabaseTest.idTest" />
         <item itemvalue="JUnit.DatabaseTest.saveTest" />
+        <item itemvalue="JUnit.DatabaseTest.removeTest" />
         <item itemvalue="JUnit.DatabaseTest.get" />
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +217,7 @@
       <workItem from="1709284938242" duration="1620000" />
       <workItem from="1709321107549" duration="3913000" />
       <workItem from="1709635477090" duration="1118000" />
-      <workItem from="1710842677044" duration="1855000" />
+      <workItem from="1710842677044" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -280,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710425024188</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Expanded BLAST wrapper">
+      <option name="closed" value="true" />
+      <created>1710844678017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710844678017</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +320,8 @@
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
     <MESSAGE value="Did a lot of database stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did a lot of database stuff" />
+    <MESSAGE value="Expanded BLAST wrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expanded BLAST wrapper" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

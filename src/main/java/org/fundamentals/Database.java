@@ -1,5 +1,6 @@
 package org.fundamentals;
 
+import org.blast.Blast;
 import org.blast.BlastHit;
 
 import java.io.File;
@@ -184,8 +185,50 @@ public class Database {
         close(conn);
     }
 
-    public static void saveBlastHit(BlastHit blastHit) {
+    public static void saveBlast(Blast blastObject) {
+        int seqId = saveSequence(blastObject);
+        int orfId = saveOrf(blastObject, seqId);
+        for (BlastHit hit : blastObject.hits) {
+            int blastId = saveBlastResults(hit);
+            String[] columns = {"orf_id, blast_id"};
+            String[] values = {orfId + "", blastId + ""};
+            save("orf_blast", columns, values);
+        }
+    }
 
+    private static int saveSequence(Blast blastObject) {
+        String[] columns = {"sequence"};
+        String[] values = {blastObject.sequence};
+        save("sequence", columns, values);
+        return getMax("sequence", "id");
+    }
+
+    private static int saveOrf(Blast blastObject, int seqId) {
+        String sequence = blastObject.sequence;
+        String hashval = Integer.toString(sequence.hashCode());
+        if (!get("SELECT * FROM orf WHERE hash = " + hashval + ";").isEmpty()) {
+            return Integer.parseInt(get("SELECT id FROM orf WHERE hash = " + hashval + ";").getFirst().
+                    split("\\|")[0]);
+        }
+        String[] columns = {"seq, hash, sequence_seq_id"};
+        String[] values = {sequence + "",
+                hashval, seqId + ""};
+        save("orf", columns, values);
+        return getMax("orf", "id");
+    }
+
+    private static int saveBlastResults(BlastHit blastHit){
+        String[] columns = {"bit_score, score, eval, identity, positives, gaps, length"};
+        String[] values = {blastHit.bitScore.toString(), blastHit.score + "", blastHit.eval, blastHit.identity + "",
+                blastHit.positives + "", blastHit.gaps + "", blastHit.length + ""};
+        save("blast_results", columns, values);
+        return getMax("blast_results", "id");
+
+    }
+
+    public static int getMax(String table, String collumn) {
+        List<String> data = get("SELECT max(" + collumn + ") FROM " + table + ";");
+        return Integer.parseInt(data.getFirst().split("\\|")[0]);
     }
 
 // todo: add a method that builds or drops the database

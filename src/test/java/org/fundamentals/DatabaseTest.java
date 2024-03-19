@@ -31,6 +31,12 @@ class DatabaseTest {
     }
 
     @Test
+    void maxTest() {
+        int id = Database.getMax("test", "id");
+        assertEquals(id, 1);
+    }
+
+    @Test
     void get() {
         List<String> data = Database.get("SELECT * FROM test;");
         List<String> row = List.of(data.getFirst().split("\\|"));
