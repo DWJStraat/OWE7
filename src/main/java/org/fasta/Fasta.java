@@ -34,13 +34,25 @@ public class Fasta {
         blastObject = new Blast(sequence);
     }
 
-//    public void blastORFs() throws InterruptedException {
-//        ArrayList<String> orfs = sequence.getOrfs();
-//        for (String orf : orfs) {
-//            blastArrayList.add(new Blast(new Sequence(orf)));
-//        }
-//
-//    }
+
+
+    public void blastORFs() throws InterruptedException {
+        ArrayList<String> orfs = sequence.getOrfs();
+        for (String orf : orfs) {
+            blastArrayList.add(new Blast(new Sequence(orf)));
+        }
+
+    }
+
+    public void saveBlastResults() {
+        if (blastObject != null) {
+            blastObject.save();
+        }
+        for (Blast blast : blastArrayList) {
+            blast.save();
+        }
+    }
+
 
 
     public String getHash() {

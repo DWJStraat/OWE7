@@ -1,295 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Unnamed" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Removed Log.java for clearer logs.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasta/FastaBucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gui/BlastScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gui/UploadScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gui/loadingScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/headacheRemoval/createWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/headacheRemoval/openFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/headacheRemoval/progressBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gui/UploadScreenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/FastaReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Sequence.java" afterDir="false" />
+    <list default="true" id="4ce92b33-5225-45d6-bdba-88f6a87fbdb7" name="Changes" comment="Wrote week 7. Generated JavaDoc for week 7.">
+      <change afterPath="$PROJECT_DIR$/../../OWE7/WerkCollege/NeedlemanWunsch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OWE7/WerkCollege/WerkCollege1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OWE7/WerkCollege/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/PSSM calculator/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/PSSM calculator/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Projects/scheduleScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Toets OWE 5/R/Data_Tentamen_231101.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Toets OWE 6/R/R_toets.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OWE 5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OWE 5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="better-logging" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Unnamed" pattern="src:week_7||src:Seq" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2cx2UMZzRnqhryYamToehaQ2INJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2OYaegbx5JSQyM0Lot3n4DZ6e7o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BioJavaExample.executor": "Run",
-    "Application.blastTest.executor": "Run",
-    "Application.main.executor": "Run",
-    "JUnit.All in OWE7.executor": "Run",
-    "JUnit.BlastTest.testBlast.executor": "Debug",
-    "JUnit.BlastTest.testBlastDna.executor": "Run",
-    "JUnit.FastaReaderTest.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
-    "JUnit.FastaTest.testFastaBlast.executor": "Run",
-    "Java Scratch.scratch.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/GitHub/mod_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.fasta" />
-      <recent name="org.blast" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\BIN-Jaar-2-2023-2024\David\Afvinkopdrachten\OWE5\OWE 5\src" />
+      <recent name="E:\GitHub\BIN-Jaar-2-2023-2024\David\Afvinkopdrachten\OWE5\OWE 5\src\week_5_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="OWE7" />
+  <component name="RunManager" selected="Application.week_5_1">
+    <configuration name="Week_1_1_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week_1_1_a" />
+      <module name="OWE 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlastTest.testBlastDna" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
+    <configuration name="frontend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_5_2.frontend" />
+      <module name="OWE 5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.blast.*" />
+          <option name="PATTERN" value="week_5_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.blast" />
-      <option name="MAIN_CLASS_NAME" value="org.blast.BlastTest" />
-      <option name="METHOD_NAME" value="testBlastDna" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReader" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="week_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_3" />
+      <module name="OWE 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaReaderTest.testFastaReaderBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaReaderTest" />
-      <option name="METHOD_NAME" value="testFastaReaderBlast" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="week_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_4" />
+      <module name="OWE 5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastaTest.testFastaBlast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasta" />
-      <option name="MAIN_CLASS_NAME" value="org.fasta.FastaTest" />
-      <option name="METHOD_NAME" value="testFastaBlast" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="week_5_1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_5_1" />
+      <module name="OWE 5" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;YCA&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/OWE 5/JavaDocs/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.BlastTest.testBlastDna" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReaderBlast" />
-        <item itemvalue="JUnit.FastaReaderTest.testFastaReader" />
-        <item itemvalue="JUnit.FastaTest.testFastaBlast" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Application.Week_1_1_a" />
+        <item itemvalue="Application.frontend" />
+        <item itemvalue="Application.week_4" />
+        <item itemvalue="Application.week_3" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="" />
-      <created>1709038950826</created>
+      <changelist id="4ce92b33-5225-45d6-bdba-88f6a87fbdb7" name="Changes" comment="" />
+      <created>1681740067458</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709038950826</updated>
-      <workItem from="1709038952110" duration="364000" />
-      <workItem from="1709039501234" duration="4685000" />
-      <workItem from="1709045137467" duration="2432000" />
-      <workItem from="1709111438581" duration="1321000" />
-      <workItem from="1709207456762" duration="3010000" />
-      <workItem from="1709284938242" duration="1620000" />
-      <workItem from="1709321107549" duration="3913000" />
-      <workItem from="1709635477090" duration="1118000" />
+      <updated>1681740067458</updated>
+      <workItem from="1681740068556" duration="1959000" />
+      <workItem from="1681813577420" duration="1364000" />
+      <workItem from="1693211941950" duration="8469000" />
+      <workItem from="1693307361413" duration="4284000" />
+      <workItem from="1693384638642" duration="21967000" />
+      <workItem from="1693828359373" duration="3012000" />
+      <workItem from="1693996044074" duration="20353000" />
+      <workItem from="1694165586475" duration="5436000" />
+      <workItem from="1694589718489" duration="7066000" />
+      <workItem from="1694783474926" duration="43000" />
+      <workItem from="1694785170085" duration="1031000" />
+      <workItem from="1695038826204" duration="3529000" />
+      <workItem from="1695125078563" duration="71000" />
+      <workItem from="1695207969933" duration="5211000" />
+      <workItem from="1695213982029" duration="20000" />
+      <workItem from="1695280421991" duration="13277000" />
+      <workItem from="1695812682489" duration="5441000" />
+      <workItem from="1695904226148" duration="2552000" />
+      <workItem from="1695982125327" duration="3202000" />
+      <workItem from="1696417899664" duration="4978000" />
+      <workItem from="1696582542462" duration="3422000" />
+      <workItem from="1697023157545" duration="7198000" />
+      <workItem from="1697096336464" duration="5232000" />
+      <workItem from="1698048601015" duration="60000" />
+      <workItem from="1698916249496" duration="1401000" />
+      <workItem from="1699026579558" duration="113000" />
+      <workItem from="1699030132741" duration="1184000" />
+      <workItem from="1699373313914" duration="28000" />
+      <workItem from="1700055201936" duration="131000" />
+      <workItem from="1706186828953" duration="635000" />
+      <workItem from="1710244150276" duration="2105000" />
+      <workItem from="1710248115608" duration="830000" />
+      <workItem from="1710314914616" duration="563000" />
+      <workItem from="1710417222332" duration="599000" />
+      <workItem from="1710842680582" duration="1213000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
-      <option name="closed" value="true" />
-      <created>1709041492726</created>
+    <task id="LOCAL-00001" summary="Wrote pseudocodes">
+      <created>1693392555245</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1709041492726</updated>
+      <updated>1693392555245</updated>
     </task>
-    <task id="LOCAL-00002" summary="Fixed the Maven errors">
-      <option name="closed" value="true" />
-      <created>1709043484180</created>
+    <task id="LOCAL-00002" summary="Finished week 1. Gave up on Bonus">
+      <created>1693398036653</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1709043484180</updated>
+      <updated>1693398036653</updated>
     </task>
-    <task id="LOCAL-00003" summary="Wrote first version of Fasta Reader">
-      <option name="closed" value="true" />
-      <created>1709214851436</created>
+    <task id="LOCAL-00003" summary="Finished H2O. Pain.">
+      <created>1693425473187</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1709214851436</updated>
+      <updated>1693425473187</updated>
     </task>
-    <task id="LOCAL-00004" summary="Wrote test for FastaReader">
-      <option name="closed" value="true" />
-      <created>1709214907060</created>
+    <task id="LOCAL-00004" summary="Tic-Tac-Toe gooes brrrr">
+      <created>1693998113762</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1709214907061</updated>
+      <updated>1693998113762</updated>
     </task>
-    <task id="LOCAL-00005" summary="Fixed FastaReader">
-      <option name="closed" value="true" />
-      <created>1709215185385</created>
+    <task id="LOCAL-00005" summary="Horse races">
+      <created>1694005153105</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1709215185385</updated>
+      <updated>1694005153105</updated>
     </task>
-    <task id="LOCAL-00006" summary="Wrote tests for FASTA">
-      <option name="closed" value="true" />
-      <created>1709216977864</created>
+    <task id="LOCAL-00006" summary="Finished week 5">
+      <created>1694096288033</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1709216977864</updated>
+      <updated>1694096288033</updated>
     </task>
-    <task id="LOCAL-00007" summary="Removed Log.java for clearer logs.">
-      <option name="closed" value="true" />
-      <created>1709641219162</created>
+    <task id="LOCAL-00007" summary="Wrote week_6 pseudocode">
+      <created>1694604442853</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1709641219162</updated>
+      <updated>1694604442853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished week 6, created createWindow.java to save myself headache">
+      <created>1695210765364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695210765364</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created openFile.java">
+      <created>1695281098234</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695281098234</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated week_6.java to accomodate for small changes">
+      <created>1695281124333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695281124333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Wrote week 7. Generated JavaDoc for week 7.">
+      <created>1695385740215</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695385740215</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit, wrote blast wrapper" />
-    <MESSAGE value="Fixed the Maven errors" />
-    <MESSAGE value="confirmed to work" />
-    <MESSAGE value="Cleaned up blast.java, added Log.java" />
-    <MESSAGE value="Wrote a Logger, added a Hit object for containing the BLAST results" />
-    <MESSAGE value="Wrote first version of Fasta Reader" />
-    <MESSAGE value="Wrote test for FastaReader" />
-    <MESSAGE value="Fixed FastaReader" />
-    <MESSAGE value="Wrote tests for FASTA" />
-    <MESSAGE value="Removed Log.java for clearer logs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Log.java for clearer logs." />
+    <MESSAGE value="Wrote pseudocodes" />
+    <MESSAGE value="Finished week 1. Gave up on Bonus" />
+    <MESSAGE value="Finished H2O. Pain." />
+    <MESSAGE value="Tic-Tac-Toe gooes brrrr" />
+    <MESSAGE value="Horse races" />
+    <MESSAGE value="Finished week 5" />
+    <MESSAGE value="Wrote week_6 pseudocode" />
+    <MESSAGE value="Finished week 6, created createWindow.java to save myself headache" />
+    <MESSAGE value="Created openFile.java" />
+    <MESSAGE value="Updated week_6.java to accomodate for small changes" />
+    <MESSAGE value="Wrote week 7. Generated JavaDoc for week 7." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote week 7. Generated JavaDoc for week 7." />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

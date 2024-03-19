@@ -1,0 +1,9 @@
+{
+  "db_url" : "ip of database server",
+  "port" : 3306,
+  "db_name" : "username",
+  "db_user" : "database_name",
+  "db_password" : "password",
+  "_comment" : "test_var is a variable for testing purposes only. It is not used in the application.",
+  "test_var" : "true"
+}
