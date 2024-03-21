@@ -3,6 +3,7 @@ package org.fasta;
 import org.blast.Blast;
 import org.fundamentals.Sequence;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Fasta {
@@ -44,7 +45,7 @@ public class Fasta {
 
     }
 
-    public void saveBlastResults() {
+    public void saveBlastResults() throws SQLException {
         if (blastObject != null) {
             blastObject.save();
         }

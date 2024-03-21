@@ -5,6 +5,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.sql.SQLException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -17,7 +18,7 @@ class DummyBlastTest {
     }
 
     @Test
-    void testSave() throws InterruptedException, ParserConfigurationException, IOException, SAXException {
+    void testSave() throws InterruptedException, ParserConfigurationException, IOException, SAXException, SQLException {
         Blast blast = new DummyBlast();
         blast.save();
     }

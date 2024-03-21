@@ -13,6 +13,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.SQLException;
 import java.util.logging.Logger;
 
 // This script is a dummy class to simulate the presence of a Blast class in the org.blast package for the purpose
@@ -42,7 +43,7 @@ public class DummyBlast extends Blast {
         }
     }
 
-    public void save() {
+    public void save() throws SQLException {
         Database.saveBlast(this);
     }
 
