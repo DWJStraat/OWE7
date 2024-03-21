@@ -12,7 +12,7 @@ CREATE TABLE blast_results (
                                positives int  NOT NULL,
                                gaps int  NOT NULL,
                                length int  NOT NULL,
-                               accession int  NOT NULL,
+                               accession text  NOT NULL,
                                CONSTRAINT blast_results_pk PRIMARY KEY (result_id)
 );
 

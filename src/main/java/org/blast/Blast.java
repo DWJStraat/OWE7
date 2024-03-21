@@ -11,6 +11,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -121,7 +122,7 @@ public class Blast {
         }
     }
 
-    public void save() {
+    public void save() throws SQLException {
         Database.saveBlast(this);
     }
 }
