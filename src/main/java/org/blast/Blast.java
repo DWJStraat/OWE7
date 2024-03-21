@@ -25,9 +25,9 @@ public class Blast {
     private String reqId = null;
     private InputStream data = null;
     private BufferedReader reader = null;
-    public final List<BlastHit> hits = new ArrayList<>();
+    public List<BlastHit> hits = new ArrayList<>();
 
-    public Blast(String seq) throws InterruptedException {
+    public Blast(String seq) {
         sequence = seq;
         props.setBlastProgram(BlastProgramEnum.blastp);
         init();
@@ -44,7 +44,13 @@ public class Blast {
         init();
     }
 
-    public void init() throws InterruptedException {
+    public Blast() {
+        sequence = "aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg";
+    }
+
+
+    public void init(){
+        long startTime = System.currentTimeMillis();
         int sleepyTime = 5000;
         props.setBlastDatabase("nr");
         outprops.setOutputOption(BlastOutputParameterEnum.ALIGNMENTS, "200");
@@ -77,6 +83,15 @@ public class Blast {
             log.severe("Cause: " + e.getCause());
             e.printStackTrace();
         }
+        long endTime = System.currentTimeMillis();
+//        try{
+//            render();
+//        } catch (ParserConfigurationException | IOException | SAXException e) {
+//            log.log(Level.SEVERE, "Error occurred: {0}", e.getMessage());
+//            log.severe("Cause: " + e.getCause());
+//            e.printStackTrace();
+//        }
+        log.log(Level.INFO, "Time taken: {0}ms", endTime - startTime);
     }
 
     public void render () throws ParserConfigurationException, IOException, SAXException {

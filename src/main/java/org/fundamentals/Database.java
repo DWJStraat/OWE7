@@ -197,8 +197,9 @@ public class Database {
     }
 
     private static int saveSequence(Blast blastObject) {
-        String[] columns = {"sequence"};
-        String[] values = {blastObject.sequence};
+        String[] columns = {"seq_id, sequence"};
+        Integer seqId = getMax("sequence", "seq_id");
+        String[] values = {seqId +", '" + blastObject.sequence + "'"};
         save("sequence", columns, values);
         return getMax("sequence", "id");
     }
@@ -228,7 +229,19 @@ public class Database {
 
     public static int getMax(String table, String collumn) {
         List<String> data = get("SELECT max(" + collumn + ") FROM " + table + ";");
-        return Integer.parseInt(data.getFirst().split("\\|")[0]);
+        String row = data.getFirst().split("\\|")[0];
+        if (row.equals("null")) {
+            return 0;
+        }
+        return Integer.parseInt(row);
+    }
+
+    public static void join() {
+        execute("SELECT * FROM orf JOIN orf_blast ON orf.id = orf_blast.orf_id JOIN blast_results ON orf_blast.blast_id = blast_results.id;");
+    }
+
+    public static void exportDb(){
+
     }
 
 // todo: add a method that builds or drops the database

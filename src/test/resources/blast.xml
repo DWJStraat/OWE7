@@ -1,0 +1,2842 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6564197</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>60</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6564197</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>60</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1542862221|ref|XM_027538800.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus x Bos taurus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_027538800</Hit_accession>
+  <Hit_len>1951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1391</Hsp_hit-from>
+      <Hsp_hit-to>1450</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1542862219|ref|XM_027538798.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus x Bos taurus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_027538798</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1131145074|ref|XM_019958446.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos indicus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_019958446</Hit_accession>
+  <Hit_len>1415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>853</Hsp_hit-from>
+      <Hsp_hit-to>912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2633683151|ref|XM_061413472.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos javanicus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_061413472</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|2633683147|ref|XM_061413464.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos javanicus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_061413464</Hit_accession>
+  <Hit_len>1417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>857</Hsp_hit-from>
+      <Hsp_hit-to>916</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2587618573|ref|XM_015471712.3|</Hit_id>
+  <Hit_def>PREDICTED: Bos taurus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_015471712</Hit_accession>
+  <Hit_len>1417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>857</Hsp_hit-from>
+      <Hsp_hit-to>916</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1036032291|gb|AH001136.2|</Hit_id>
+  <Hit_def>Bos taurus gamma-S-crystallin gene, complete cds</Hit_def>
+  <Hit_accession>AH001136</Hit_accession>
+  <Hit_len>2370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1062</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2496449187|ref|XM_055568805.1|</Hit_id>
+  <Hit_def>PREDICTED: Bubalus kerabau crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_055568805</Hit_accession>
+  <Hit_len>1312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>499</Hsp_hit-from>
+      <Hsp_hit-to>558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|942100339|ref|XM_014483322.1|</Hit_id>
+  <Hit_def>PREDICTED: Bos mutus crystallin, gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_014483322</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|942100335|ref|XM_005910756.2|</Hit_id>
+  <Hit_def>PREDICTED: Bos mutus crystallin, gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005910756</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|742178622|ref|XM_010853890.1|</Hit_id>
+  <Hit_def>PREDICTED: Bison bison bison crystallin, gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_010853890</Hit_accession>
+  <Hit_len>1022</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|2148341037|ref|XM_006058621.4|</Hit_id>
+  <Hit_def>PREDICTED: Bubalus bubalis crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_006058621</Hit_accession>
+  <Hit_len>850</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|2148341035|ref|XM_006058622.4|</Hit_id>
+  <Hit_def>PREDICTED: Bubalus bubalis crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_006058622</Hit_accession>
+  <Hit_len>2195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1635</Hsp_hit-from>
+      <Hsp_hit-to>1694</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|31342400|ref|NM_174292.2|</Hit_id>
+  <Hit_def>Bos taurus crystallin gamma S (CRYGS), mRNA &gt;gi|152|emb|X03006.1| Bovine mRNA for lens beta-s-crystallin</Hit_def>
+  <Hit_accession>NM_174292</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.488</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.19982e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1810971775|ref|XM_032482730.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus ferus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_032482730</Hit_accession>
+  <Hit_len>6840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>6098</Hsp_hit-from>
+      <Hsp_hit-to>6157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1777459684|ref|XM_031682632.1|</Hit_id>
+  <Hit_def>PREDICTED: Vicugna pacos crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_031682632</Hit_accession>
+  <Hit_len>2719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1977</Hsp_hit-from>
+      <Hsp_hit-to>2036</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1768682023|ref|XM_031452849.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus dromedarius crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_031452849</Hit_accession>
+  <Hit_len>2737</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1995</Hsp_hit-from>
+      <Hsp_hit-to>2054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1187561296|ref|XM_020878820.1|</Hit_id>
+  <Hit_def>PREDICTED: Odocoileus virginianus texanus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_020878820</Hit_accession>
+  <Hit_len>1254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1187561294|ref|XM_020878819.1|</Hit_id>
+  <Hit_def>PREDICTED: Odocoileus virginianus texanus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_020878819</Hit_accession>
+  <Hit_len>1405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>845</Hsp_hit-from>
+      <Hsp_hit-to>904</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2665741445|emb|OZ005632.1|</Hit_id>
+  <Hit_def>Muntiacus reevesi genome assembly, chromosome: 8</Hit_def>
+  <Hit_accession>OZ005632</Hit_accession>
+  <Hit_len>96944567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>58724581</Hsp_hit-from>
+      <Hsp_hit-to>58724640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2625301427|ref|XM_061166774.1|</Hit_id>
+  <Hit_def>PREDICTED: Dama dama crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_061166774</Hit_accession>
+  <Hit_len>995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>445</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|2528700087|ref|XM_057739962.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X14, mRNA</Hit_def>
+  <Hit_accession>XM_057739962</Hit_accession>
+  <Hit_len>789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|2528700085|ref|XM_057739961.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X13, mRNA</Hit_def>
+  <Hit_accession>XM_057739961</Hit_accession>
+  <Hit_len>1493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>927</Hsp_hit-from>
+      <Hsp_hit-to>986</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|2528700083|ref|XM_057739960.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X12, mRNA</Hit_def>
+  <Hit_accession>XM_057739960</Hit_accession>
+  <Hit_len>1613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1106</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2528700073|ref|XM_057739955.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X7, mRNA</Hit_def>
+  <Hit_accession>XM_057739955</Hit_accession>
+  <Hit_len>2072</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1506</Hsp_hit-from>
+      <Hsp_hit-to>1565</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2528700071|ref|XM_057739954.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_057739954</Hit_accession>
+  <Hit_len>1985</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1419</Hsp_hit-from>
+      <Hsp_hit-to>1478</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2528700069|ref|XM_057739953.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_057739953</Hit_accession>
+  <Hit_len>2019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1453</Hsp_hit-from>
+      <Hsp_hit-to>1512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|2528700067|ref|XM_057739952.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_057739952</Hit_accession>
+  <Hit_len>2526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2237</Hsp_hit-from>
+      <Hsp_hit-to>2296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2528700065|ref|XM_057739951.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_057739951</Hit_accession>
+  <Hit_len>2758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2192</Hsp_hit-from>
+      <Hsp_hit-to>2251</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|2528700063|ref|XM_057739950.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_057739950</Hit_accession>
+  <Hit_len>2325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1759</Hsp_hit-from>
+      <Hsp_hit-to>1818</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|2528700061|ref|XM_057739949.1|</Hit_id>
+  <Hit_def>PREDICTED: Hippopotamus amphibius kiboko TBCC domain containing 1 (TBCCD1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_057739949</Hit_accession>
+  <Hit_len>2812</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2237</Hsp_hit-from>
+      <Hsp_hit-to>2296</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|2165527141|ref|XM_045519762.1|</Hit_id>
+  <Hit_def>PREDICTED: Camelus bactrianus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_045519762</Hit_accession>
+  <Hit_len>6822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.98</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.78581e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>6080</Hsp_hit-from>
+      <Hsp_hit-to>6139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1835230416|ref|XM_019946196.2|</Hit_id>
+  <Hit_def>PREDICTED: Tursiops truncatus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_019946196</Hit_accession>
+  <Hit_len>801</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1814754144|ref|XM_032630968.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X10, mRNA</Hit_def>
+  <Hit_accession>XM_032630968</Hit_accession>
+  <Hit_len>1593</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>860</Hsp_hit-from>
+      <Hsp_hit-to>919</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1814754136|ref|XM_032630964.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X6, mRNA</Hit_def>
+  <Hit_accession>XM_032630964</Hit_accession>
+  <Hit_len>2321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1588</Hsp_hit-from>
+      <Hsp_hit-to>1647</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1814754134|ref|XM_032630963.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_032630963</Hit_accession>
+  <Hit_len>2194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1461</Hsp_hit-from>
+      <Hsp_hit-to>1520</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1814754132|ref|XM_032630962.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_032630962</Hit_accession>
+  <Hit_len>2324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1591</Hsp_hit-from>
+      <Hsp_hit-to>1650</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1814754130|ref|XM_032630961.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_032630961</Hit_accession>
+  <Hit_len>2606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1873</Hsp_hit-from>
+      <Hsp_hit-to>1932</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1814754128|ref|XM_032630960.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_032630960</Hit_accession>
+  <Hit_len>3193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2460</Hsp_hit-from>
+      <Hsp_hit-to>2519</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1814754126|ref|XM_032630959.1|</Hit_id>
+  <Hit_def>PREDICTED: Phocoena sinus TBCC domain containing 1 (TBCCD1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_032630959</Hit_accession>
+  <Hit_len>2479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1746</Hsp_hit-from>
+      <Hsp_hit-to>1805</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1741508449|ref|XM_022570096.2|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_022570096</Hit_accession>
+  <Hit_len>2338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1752</Hsp_hit-from>
+      <Hsp_hit-to>1811</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1655663942|ref|XM_029215250.1|</Hit_id>
+  <Hit_def>PREDICTED: Monodon monoceros crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_029215250</Hit_accession>
+  <Hit_len>4617</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4031</Hsp_hit-from>
+      <Hsp_hit-to>4090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1516074856|ref|XM_027109482.1|</Hit_id>
+  <Hit_def>PREDICTED: Lagenorhynchus obliquidens crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_027109482</Hit_accession>
+  <Hit_len>946</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1378815818|ref|XM_024768118.1|</Hit_id>
+  <Hit_def>PREDICTED: Neophocaena asiaeorientalis asiaeorientalis crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_024768118</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1246146051|ref|XM_022570162.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X9, mRNA</Hit_def>
+  <Hit_accession>XM_022570162</Hit_accession>
+  <Hit_len>797</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1246146049|ref|XM_022570157.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X8, mRNA</Hit_def>
+  <Hit_accession>XM_022570157</Hit_accession>
+  <Hit_len>1482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>896</Hsp_hit-from>
+      <Hsp_hit-to>955</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1246146043|ref|XM_022570132.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X5, mRNA</Hit_def>
+  <Hit_accession>XM_022570132</Hit_accession>
+  <Hit_len>2201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1615</Hsp_hit-from>
+      <Hsp_hit-to>1674</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1246146041|ref|XM_022570122.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X4, mRNA</Hit_def>
+  <Hit_accession>XM_022570122</Hit_accession>
+  <Hit_len>2051</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1465</Hsp_hit-from>
+      <Hsp_hit-to>1524</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1246146039|ref|XM_022570115.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_022570115</Hit_accession>
+  <Hit_len>2486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1900</Hsp_hit-from>
+      <Hsp_hit-to>1959</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1246146037|ref|XM_022570105.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinapterus leucas gamma-crystallin S (LOC111172900), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_022570105</Hit_accession>
+  <Hit_len>3039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2453</Hsp_hit-from>
+      <Hsp_hit-to>2512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|2597747148|ref|XM_030861305.2|</Hit_id>
+  <Hit_def>PREDICTED: Globicephala melas crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_030861305</Hit_accession>
+  <Hit_len>874</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|2589527904|ref|XM_060150249.1|</Hit_id>
+  <Hit_def>PREDICTED: Lagenorhynchus albirostris crystallin gamma S (CRYGS), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_060150249</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>238</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|2589527902|ref|XM_060150248.1|</Hit_id>
+  <Hit_def>PREDICTED: Lagenorhynchus albirostris crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_060150248</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|2589527900|ref|XM_060150247.1|</Hit_id>
+  <Hit_def>PREDICTED: Lagenorhynchus albirostris crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_060150247</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|2589232544|ref|XM_060099270.1|</Hit_id>
+  <Hit_def>PREDICTED: Mesoplodon densirostris crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_060099270</Hit_accession>
+  <Hit_len>777</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|2589232542|ref|XM_060099269.1|</Hit_id>
+  <Hit_def>PREDICTED: Mesoplodon densirostris crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_060099269</Hit_accession>
+  <Hit_len>810</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|2587501426|ref|XM_060010979.1|</Hit_id>
+  <Hit_def>PREDICTED: Delphinus delphis crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_060010979</Hit_accession>
+  <Hit_len>980</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|2492268653|ref|XM_055408654.1|</Hit_id>
+  <Hit_def>PREDICTED: Moschus berezovskii crystallin gamma S (CRYGS), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_055408654</Hit_accession>
+  <Hit_len>1618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1067</Hsp_hit-from>
+      <Hsp_hit-to>1126</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|2492268651|ref|XM_055408645.1|</Hit_id>
+  <Hit_def>PREDICTED: Moschus berezovskii crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_055408645</Hit_accession>
+  <Hit_len>1715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1164</Hsp_hit-from>
+      <Hsp_hit-to>1223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|2492268649|ref|XM_055408636.1|</Hit_id>
+  <Hit_def>PREDICTED: Moschus berezovskii crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_055408636</Hit_accession>
+  <Hit_len>2257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1706</Hsp_hit-from>
+      <Hsp_hit-to>1765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|2411693180|ref|XM_052647132.1|</Hit_id>
+  <Hit_def>PREDICTED: Budorcas taxicolor crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_052647132</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|2280706727|ref|XM_004278463.4|</Hit_id>
+  <Hit_def>PREDICTED: Orcinus orca crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_004278463</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|602732084|ref|XM_007451379.1|</Hit_id>
+  <Hit_def>PREDICTED: Lipotes vexillifer crystallin, gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_007451379</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|602732082|ref|XM_007451378.1|</Hit_id>
+  <Hit_def>PREDICTED: Lipotes vexillifer crystallin, gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_007451378</Hit_accession>
+  <Hit_len>679</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|2101993595|ref|XM_043874320.1|</Hit_id>
+  <Hit_def>PREDICTED: Cervus elaphus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_043874320</Hit_accession>
+  <Hit_len>2156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1596</Hsp_hit-from>
+      <Hsp_hit-to>1655</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|2090108516|ref|XM_043473479.1|</Hit_id>
+  <Hit_def>PREDICTED: Cervus canadensis crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_043473479</Hit_accession>
+  <Hit_len>2143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1583</Hsp_hit-from>
+      <Hsp_hit-to>1642</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGTGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|2009432334|ref|XM_040252689.1|</Hit_id>
+  <Hit_def>PREDICTED: Oryx dammah crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_040252689</Hit_accession>
+  <Hit_len>1634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1074</Hsp_hit-from>
+      <Hsp_hit-to>1133</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|2009432332|ref|XM_040252679.1|</Hit_id>
+  <Hit_def>PREDICTED: Oryx dammah crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_040252679</Hit_accession>
+  <Hit_len>1889</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.472</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.17556e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1329</Hsp_hit-from>
+      <Hsp_hit-to>1388</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|2625771942|ref|XM_061193306.1|</Hit_id>
+  <Hit_def>PREDICTED: Eubalaena glacialis crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_061193306</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|1062849752|ref|XM_018046920.1|</Hit_id>
+  <Hit_def>PREDICTED: Capra hircus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_018046920</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGTGACTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| || ||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|1062849751|ref|XM_005675164.3|</Hit_id>
+  <Hit_def>PREDICTED: Capra hircus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_005675164</Hit_accession>
+  <Hit_len>663</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGTGACTGCGACTGTGCGGATTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| || ||||||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|2606974397|ref|XM_027957512.3|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries crystallin gamma S (CRYGS), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_027957512</Hit_accession>
+  <Hit_len>5283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4723</Hsp_hit-from>
+      <Hsp_hit-to>4782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGACTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| || |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|2606974395|ref|XM_004003064.6|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_004003064</Hit_accession>
+  <Hit_len>3207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2647</Hsp_hit-from>
+      <Hsp_hit-to>2706</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGACTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| || |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|2606974392|ref|XM_027957510.3|</Hit_id>
+  <Hit_def>PREDICTED: Ovis aries crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_027957510</Hit_accession>
+  <Hit_len>6590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>6030</Hsp_hit-from>
+      <Hsp_hit-to>6089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGACTGCGACTGTGCGGACTTCCACATGTACCTGAGCCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| ||||||||||| || |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|2586567030|ref|XM_059920738.1|</Hit_id>
+  <Hit_def>PREDICTED: Balaenoptera ricei crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_059920738</Hit_accession>
+  <Hit_len>940</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>369</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|2526666653|ref|XM_057545450.1|</Hit_id>
+  <Hit_def>PREDICTED: Balaenoptera acutorostrata crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_057545450</Hit_accession>
+  <Hit_len>1121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>530</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|1920267215|ref|XM_036851416.1|</Hit_id>
+  <Hit_def>PREDICTED: Balaenoptera musculus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_036851416</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9632</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.25072e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|1851876033|ref|XM_034999774.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_034999774</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|1851876031|ref|XM_034999773.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina TBCC domain containing 1 (TBCCD1), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_034999773</Hit_accession>
+  <Hit_len>4860</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4274</Hsp_hit-from>
+      <Hsp_hit-to>4333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|1851876029|ref|XM_034999772.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina TBCC domain containing 1 (TBCCD1), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_034999772</Hit_accession>
+  <Hit_len>5357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4771</Hsp_hit-from>
+      <Hsp_hit-to>4830</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|1851876027|ref|XM_034999771.1|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga leonina TBCC domain containing 1 (TBCCD1), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_034999771</Hit_accession>
+  <Hit_len>4983</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4397</Hsp_hit-from>
+      <Hsp_hit-to>4456</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|1807931005|ref|XM_032406958.1|</Hit_id>
+  <Hit_def>PREDICTED: Phoca vitulina crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_032406958</Hit_accession>
+  <Hit_len>792</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|1753142733|ref|XM_031039082.1|</Hit_id>
+  <Hit_def>PREDICTED: Leptonychotes weddellii crystallin gamma S (CRYGS), transcript variant X3, mRNA</Hit_def>
+  <Hit_accession>XM_031039082</Hit_accession>
+  <Hit_len>1197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>611</Hsp_hit-from>
+      <Hsp_hit-to>670</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|1753142732|ref|XM_006743233.2|</Hit_id>
+  <Hit_def>PREDICTED: Leptonychotes weddellii crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_006743233</Hit_accession>
+  <Hit_len>738</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|1753142730|ref|XM_031039081.1|</Hit_id>
+  <Hit_def>PREDICTED: Leptonychotes weddellii crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_031039081</Hit_accession>
+  <Hit_len>925</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|1543768452|ref|XM_027583829.1|</Hit_id>
+  <Hit_def>PREDICTED: Zalophus californianus crystallin gamma S (CRYGS), transcript variant X2, mRNA &gt;gi|1570425534|ref|XM_028100926.1| PREDICTED: Eumetopias jubatus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_027583829</Hit_accession>
+  <Hit_len>877</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|2566739521|ref|XM_059063779.1|</Hit_id>
+  <Hit_def>PREDICTED: Kogia breviceps crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_059063779</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGTGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|2566739519|ref|XM_059063778.1|</Hit_id>
+  <Hit_def>PREDICTED: Kogia breviceps crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_059063778</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGTGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|2492238153|ref|XM_055308404.1|</Hit_id>
+  <Hit_def>PREDICTED: Nyctereutes procyonoides crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_055308404</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGCGACTGCGACTGTGCGGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||| ||||||||||| |||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|2487033519|ref|XM_007122817.3|</Hit_id>
+  <Hit_def>PREDICTED: Physeter catodon crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_007122817</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACAGTGATTGCGACTGTGCGGATTTCCACATGTACTTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||| |||||||||||||| ||||||||||||||| |||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|2463655347|ref|XM_045903200.2|</Hit_id>
+  <Hit_def>PREDICTED: Mirounga angustirostris crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_045903200</Hit_accession>
+  <Hit_len>750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|2044138994|ref|XM_041731439.1|</Hit_id>
+  <Hit_def>PREDICTED: Vulpes lagopus crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_041731439</Hit_accession>
+  <Hit_len>1978</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1392</Hsp_hit-from>
+      <Hsp_hit-to>1451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGCGACTGCGACTGTGCGGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||| ||||||||||| |||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|1997759095|emb|HG994410.1|</Hit_id>
+  <Hit_def>Canis lupus genome assembly, chromosome: 34</Hit_def>
+  <Hit_accession>HG994410</Hit_accession>
+  <Hit_len>45903255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>23020313</Hsp_hit-from>
+      <Hsp_hit-to>23020372</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|1995993293|ref|XM_039850788.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus giganteus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_039850788</Hit_accession>
+  <Hit_len>2082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1340</Hsp_hit-from>
+      <Hsp_hit-to>1399</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGATTGCGACTGTGCAGATTTCCACATGTACCTGAATCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | ||||||||||||||||||||||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|1995993291|ref|XM_039850787.1|</Hit_id>
+  <Hit_def>PREDICTED: Pteropus giganteus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_039850787</Hit_accession>
+  <Hit_len>2019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1277</Hsp_hit-from>
+      <Hsp_hit-to>1336</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGATTGCGACTGTGCAGATTTCCACATGTACCTGAATCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | ||||||||||||||||||||||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|1926221153|ref|XM_017643186.2|</Hit_id>
+  <Hit_def>PREDICTED: Manis javanica crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_017643186</Hit_accession>
+  <Hit_len>899</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGATTGCGACTGTGCAGATTTCCACATGTACCTAAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | |||||||||||||||||||||||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|1926221148|ref|XM_037024091.1|</Hit_id>
+  <Hit_def>PREDICTED: Manis javanica crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_037024091</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGATTGCGACTGTGCAGATTTCCACATGTACCTAAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | |||||||||||||||||||||||||||||||| || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|1911183817|ref|XM_036352930.1|</Hit_id>
+  <Hit_def>PREDICTED: Myotis myotis crystallin gamma S (CRYGS), mRNA</Hit_def>
+  <Hit_accession>XM_036352930</Hit_accession>
+  <Hit_len>4982</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>4415</Hsp_hit-from>
+      <Hsp_hit-to>4474</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGATTGCGACTGTGCAGATTTCCACATGTACCTGAATCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | ||||||||||||||||||||||||||||||||||  |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|1900038505|ref|XM_036066674.1|</Hit_id>
+  <Hit_def>PREDICTED: Halichoerus grypus crystallin gamma S (CRYGS), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_036066674</Hit_accession>
+  <Hit_len>2553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>1968</Hsp_hit-from>
+      <Hsp_hit-to>2027</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|1900038503|ref|XM_036066673.1|</Hit_id>
+  <Hit_def>PREDICTED: Halichoerus grypus crystallin gamma S (CRYGS), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_036066673</Hit_accession>
+  <Hit_len>2821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.4547</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.12697e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>2236</Hsp_hit-from>
+      <Hsp_hit-to>2295</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>AGGCCGCCACTATGACAGCGATTGCGACTGTGCAGATTTCCACATGTACCTGAGCCGCTG</Hsp_qseq>
+      <Hsp_hseq>AGGCCGCCACTATGACTGTGACTGCGACTGTGCAGATTTCCACATGTACCTGAGTCGCTG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| | || |||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104210280</Statistics_db-num>
+      <Statistics_db-len>1597141235105</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
