@@ -1,6 +1,5 @@
 package org.blast;
 
-import org.fundamentals.Database;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -13,7 +12,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.SQLException;
 import java.util.logging.Logger;
 
 // This script is a dummy class to simulate the presence of a Blast class in the org.blast package for the purpose
@@ -41,10 +39,6 @@ public class DummyBlast extends Blast {
             Node hit = hitNodes.item(i);
             hits.add(new BlastHit(hit, sequence));
         }
-    }
-
-    public void save() throws SQLException {
-        Database.saveBlast(this);
     }
 
 }

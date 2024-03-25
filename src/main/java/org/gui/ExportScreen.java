@@ -9,11 +9,10 @@ import java.util.logging.Logger;
 
 public class ExportScreen {
     private static final createWindow window = new createWindow("Export", 200, 250);
-    private static final JPanel visual = new JPanel();
     private static final JButton export = new JButton("Export");
     private static final JButton back = new JButton("Back");
     private static final Logger log = Logger.getLogger("org.gui.ExportScreen");
-    public static void main() {
+    public static void Main() {
         build();
     }
 

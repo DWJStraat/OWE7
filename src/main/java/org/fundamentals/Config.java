@@ -13,7 +13,7 @@ public class Config {
     static {
         try {
             conf = JSONObject.fromObject(new JSONParser().parse(
-                    new FileReader("src/main/resources/config/config.json")
+                    new FileReader("src/Main/resources/config/config.json")
             ));
         } catch (IOException | ParseException e) {
             throw new RuntimeException(e);

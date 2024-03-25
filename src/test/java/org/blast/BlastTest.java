@@ -11,27 +11,27 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BlastTest {
     @Test
-    void testBlast() throws InterruptedException {
+    void testBlast() {
         Blast blast = new Blast("MKWVTFISLLFLFSSAYSRGVFRRDAHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCP");
         assertNotNull(blast);
     }
 
     @Test
-    void testBlastDna() throws InterruptedException {
+    void testBlastDna() {
         Sequence seq = new Sequence("aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg");
         Blast blast = new Blast(seq);
         assertNotNull(blast);
     }
 
     @Test
-    void testBlastOutput() throws InterruptedException, IOException {
+    void testBlastOutput() throws IOException {
         Sequence seq = new Sequence("aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg");
         Blast blast = new Blast(seq);
         blast.output();
     }
 
     @Test
-    void testBlastRender() throws InterruptedException, ParserConfigurationException, IOException, SAXException {
+    void testBlastRender() throws ParserConfigurationException, IOException, SAXException {
         Sequence seq = new Sequence("aggccgccactatgacagcgattgcgactgtgcagatttccacatgtacctgagccgctg");
         Blast blast = new Blast(seq);
         blast.render();

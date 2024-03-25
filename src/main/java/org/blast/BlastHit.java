@@ -16,8 +16,7 @@ public class BlastHit{
     private final Element hitElement;
     private final Element hspElement;
     public BlastHit (Node node, String sequence) {
-        Node hit = node;
-        hitElement = (Element) hit;
+        hitElement = (Element) node;
         Node hsps = hitElement.getElementsByTagName("Hsp").item(0);
         hspElement = (Element) hsps;
         bitScore = Float.parseFloat(hspGet("Hsp_bit-score"));
@@ -27,12 +26,12 @@ public class BlastHit{
         positives = Integer.parseInt(hspGet("Hsp_positive"));
         gaps = Integer.parseInt(hspGet("Hsp_gaps"));
         length = Integer.parseInt(hspGet("Hsp_align-len"));
-        accession = hitGet("Hit_accession");
+        accession = hitGet();
         seq = sequence;
     }
 
-    private String hitGet(String tag){
-        return hitElement.getElementsByTagName(tag).item(0).getTextContent();
+    private String hitGet(){
+        return hitElement.getElementsByTagName("Hit_accession").item(0).getTextContent();
     }
 
     private String hspGet(String tag){

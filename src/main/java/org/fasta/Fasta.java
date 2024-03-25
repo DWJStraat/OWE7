@@ -3,7 +3,6 @@ package org.fasta;
 import org.blast.Blast;
 import org.fundamentals.Sequence;
 
-import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Fasta {
@@ -31,30 +30,9 @@ public class Fasta {
         return sequence.toString();
     }
 
-    public void blast() throws InterruptedException {
+    public void blast() {
         blastObject = new Blast(sequence);
     }
-
-
-
-    public void blastORFs() throws InterruptedException {
-        ArrayList<String> orfs = sequence.getOrfs();
-        for (String orf : orfs) {
-            blastArrayList.add(new Blast(new Sequence(orf)));
-        }
-
-    }
-
-    public void saveBlastResults() throws SQLException {
-        if (blastObject != null) {
-            blastObject.save();
-        }
-        for (Blast blast : blastArrayList) {
-            blast.save();
-        }
-    }
-
-
 
     public String getHash() {
         return Integer.toString(Integer.parseInt(sequence.getHash())+ head.hashCode());

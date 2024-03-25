@@ -57,13 +57,4 @@ class DatabaseTest {
         Database.exportDb();
     }
 
-//    @Test
-//    void create() {
-//        Database.BuildDatabase();
-//    }
-//
-//    @Test
-//    void destroy() {
-//        Database.DropDatabase();
-//    }
 }

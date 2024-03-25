@@ -12,13 +12,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class DummyBlastTest {
 
     @Test
-    void testBlast() throws InterruptedException, ParserConfigurationException, IOException, SAXException {
+    void testBlast() throws ParserConfigurationException, IOException, SAXException {
         Blast blast = new DummyBlast();
         assertEquals(blast.hits.size(), 100);
     }
 
     @Test
-    void testSave() throws InterruptedException, ParserConfigurationException, IOException, SAXException, SQLException {
+    void testSave() throws ParserConfigurationException, IOException, SAXException, SQLException {
         Blast blast = new DummyBlast();
         blast.save();
     }

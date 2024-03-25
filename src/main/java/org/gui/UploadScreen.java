@@ -39,7 +39,7 @@ public class UploadScreen {
     private static void exportBuild() {
         export.addActionListener(e -> {
             window.close();
-            ExportScreen.main();
+            ExportScreen.Main();
         });
     }
 
