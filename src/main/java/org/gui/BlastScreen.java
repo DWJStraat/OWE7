@@ -59,12 +59,11 @@ public class BlastScreen {
                         log.log(Level.SEVERE, "Thread Error", ex);
                     }
                 }
-                loadingScreen.Main();
-                loadingScreen.done();
-                log.log(Level.INFO, "Blast finished");
-                window.close();
             });
             cont.start();
+            window.close();
+            UploadScreen.Main();
+
         });
     }
 

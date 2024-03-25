@@ -17,6 +17,7 @@ public class UploadScreen {
     private static final JPanel visual = new JPanel();
     private static final JButton open = new JButton("Open");
     private static final JButton next = new JButton("Next");
+    private static final JButton export = new JButton("Export");
 
     public static void Main() {
         log.log(Level.INFO, "Starting UploadScreen");
@@ -26,12 +27,20 @@ public class UploadScreen {
     private static void build() {
         openBuild();
         nextBuild();
+        exportBuild();
         visual.setBackground(Color.WHITE);
         window.add(new JLabel("Select a file to upload"), 10, 10, 150, 40);
         window.add(open, 10, 60, 100, 40);
         window.add(next, 10, 110, 100, 40);
         window.show();
 
+    }
+
+    private static void exportBuild() {
+        export.addActionListener(e -> {
+            window.close();
+            ExportScreen.main();
+        });
     }
 
     private static void openBuild() {
