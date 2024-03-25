@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Rewrote XML parser, added a dummy for the blast to reduce testing time">
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Got SQL working, got export working">
       <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/Blast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/blast/DummyBlast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/blast/DummyBlast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasta/Fasta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/create.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/blast/DummyBlastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/blast/DummyBlastTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fundamentals/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/BlastScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/BlastScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/UploadScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/UploadScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="better-logging" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,41 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BioJavaExample.executor": "Run",
-    "Application.blastTest.executor": "Run",
-    "Application.main.executor": "Run",
-    "JUnit.All in OWE7.executor": "Run",
-    "JUnit.BlastTest.testBlast.executor": "Debug",
-    "JUnit.BlastTest.testBlastDna.executor": "Run",
-    "JUnit.BlastTest.testBlastRender.executor": "Run",
-    "JUnit.DatabaseTest.addTest.executor": "Run",
-    "JUnit.DatabaseTest.exportTest.executor": "Run",
-    "JUnit.DummyBlastTest.testBlast.executor": "Run",
-    "JUnit.DummyBlastTest.testSave.executor": "Run",
-    "JUnit.FastaReaderTest.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
-    "JUnit.FastaTest.testFastaBlast.executor": "Run",
-    "Java Scratch.scratch.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/GitHub/OWE7/src/test/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BioJavaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.blastTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in OWE7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlastTest.testBlast.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.BlastTest.testBlastDna.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlastTest.testBlastRender.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DatabaseTest.addTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DatabaseTest.exportTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DummyBlastTest.testBlast.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DummyBlastTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReader.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReaderBlast.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReaderOutput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaTest.testFastaBlast.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/GitHub/OWE7/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\OWE7\src\test\resources" />
@@ -215,7 +210,9 @@
       <workItem from="1709284938242" duration="1620000" />
       <workItem from="1709321107549" duration="3913000" />
       <workItem from="1709635477090" duration="1118000" />
-      <workItem from="1711014590388" duration="12420000" />
+      <workItem from="1711014590388" duration="14965000" />
+      <workItem from="1711042919228" duration="34000" />
+      <workItem from="1711369261617" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -281,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711024491396</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Got SQL working, got export working">
+      <option name="closed" value="true" />
+      <created>1711027758209</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711027758209</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +315,8 @@
     <MESSAGE value="Wrote tests for FASTA" />
     <MESSAGE value="Removed Log.java for clearer logs." />
     <MESSAGE value="Rewrote XML parser, added a dummy for the blast to reduce testing time" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrote XML parser, added a dummy for the blast to reduce testing time" />
+    <MESSAGE value="Got SQL working, got export working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got SQL working, got export working" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
