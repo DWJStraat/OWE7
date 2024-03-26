@@ -43,6 +43,7 @@ public class BlastScreen {
             blast.setEnabled(false);
             log.log(Level.INFO, "Blasting");
             label.setText("Blasting...");
+            window.error("Blasting started");
             blastThread blastThread = new blastThread();
             Thread thread = new Thread(blastThread);
             thread.start();
@@ -55,6 +56,7 @@ public class BlastScreen {
                         i = i + sleepyTime/1000;
                         sleepyTime = sleepyTime + sleepyTime/10;
                         label.setText("Blasting... " + i + "s");
+
                     } catch (InterruptedException ex) {
                         log.log(Level.SEVERE, "Thread Error", ex);
                     }

@@ -34,6 +34,7 @@ public class ExportScreen {
     private static void exportBuild() {
         export.addActionListener(e -> {
             try {
+                window.error("Exporting database");
                 Database.exportDb();
             } catch (SQLException ex) {
                 window.error("An error occurred while exporting the database");

@@ -12,11 +12,11 @@ import java.util.logging.Logger;
 
 public class UploadScreen {
     private static final Logger log = Logger.getLogger("org.gui.UploadScreen");
-    private static final createWindow window = new createWindow("Upload", 200, 200);
+    private static final createWindow window = new createWindow("Upload", 250, 250);
     private static openFile openFile;
     private static final JPanel visual = new JPanel();
     private static final JButton open = new JButton("Open");
-    private static final JButton next = new JButton("Next");
+    private static final JButton next = new JButton("BLAST");
     private static final JButton export = new JButton("Export");
 
     public static void Main() {
@@ -29,9 +29,11 @@ public class UploadScreen {
         nextBuild();
         exportBuild();
         visual.setBackground(Color.WHITE);
-        window.add(new JLabel("Select a file to upload"), 10, 10, 150, 40);
+        window.add(new JLabel("<html>Select a file to upload, or press<br/>Export to export the database to<br/>an Excel file</html>"),
+                10, 10, 200, 40);
         window.add(open, 10, 60, 100, 40);
         window.add(next, 10, 110, 100, 40);
+        window.add(export, 10, 160, 100, 40);
         window.show();
 
     }
