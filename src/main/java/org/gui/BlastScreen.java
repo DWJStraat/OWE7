@@ -14,7 +14,7 @@ public class BlastScreen {
     private static final createWindow window = new createWindow("Blast", 200, 250);
     private static final JPanel visual = new JPanel();
     private static final JButton blast = new JButton("Blast");
-//    private static final JButton back = new JButton("Back");
+
     private static final JLabel label = new JLabel("Click to blast");
     public static void Main() {
         log.log(java.util.logging.Level.INFO, "Starting BlastScreen");
@@ -23,14 +23,14 @@ public class BlastScreen {
 
     private static void build() {
         blastBuild();
-//        backBuild();
+
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         visual.setBackground(java.awt.Color.WHITE);
         window.add(label, 10, 10, 150, 40);
         window.add(blast, 10, 60, 100, 40);
-//        window.add(back, 10, 110, 100, 40);
+
         String seqLabel = "Sequences: " + FastaBucket.size();
-        String orfLabel = "ORF: " + FastaBucket.ORFs();
+        String orfLabel = "Number of ORFs: " + FastaBucket.ORFs();
         String fileLabel =  "Files: " + FastaBucket.size();
         window.add(new JLabel(fileLabel), 10, 145, 150, 40);
         window.add(new JLabel(orfLabel), 10, 160, 150, 40);

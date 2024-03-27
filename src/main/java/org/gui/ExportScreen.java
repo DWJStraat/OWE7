@@ -4,6 +4,10 @@ import org.fundamentals.Database;
 import org.headacheRemoval.createWindow;
 
 import javax.swing.*;
+import java.awt.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.logging.Logger;
 
@@ -34,13 +38,19 @@ public class ExportScreen {
     private static void exportBuild() {
         export.addActionListener(e -> {
             try {
-                window.error("Exporting database");
                 Database.exportDb();
-            } catch (SQLException ex) {
+                Desktop desktop = Desktop.getDesktop();
+                desktop.open(new File("export.xlsx"));
+                window.close();
+                System.exit(0);
+            } catch (FileNotFoundException ex) {
+                window.error("Please close the file before exporting the database");
+            } catch (SQLException | IOException ex) {
                 window.error("An error occurred while exporting the database");
                 log.log(java.util.logging.Level.SEVERE, "An error occurred while exporting the database", ex);
                 log.log(java.util.logging.Level.SEVERE, "{}", ex.getCause());
             }
+
         });
         window.add(export, 10, 10, 150, 40);
     }

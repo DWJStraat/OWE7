@@ -3,8 +3,6 @@ package org.fasta;
 import org.blast.Blast;
 import org.fundamentals.Sequence;
 
-import java.util.ArrayList;
-
 public class Fasta {
     public final String head;
 
@@ -13,8 +11,6 @@ public class Fasta {
     }
 
     private Blast blastObject;
-
-    private final ArrayList<Blast> blastArrayList = new ArrayList<>();
     public final Sequence sequence;
     public Fasta (String header, String sequence) {
         head = header;

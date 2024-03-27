@@ -6,6 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.blast.Blast;
 import org.blast.BlastHit;
 
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -243,17 +244,23 @@ public class Database {
                         ON orfs_blast_results.blast_results_result_id = blast_results.result_id;"""));
     }
 
-    public static void exportDb() throws SQLException {
+    public static void exportDb() throws SQLException, FileNotFoundException {
         // with inspiration from https://stackoverflow.com/a/37778241
         try (
                 XSSFWorkbook workbook = new XSSFWorkbook();
-                FileOutputStream output = new FileOutputStream("export.xlsx") ){
+                FileOutputStream output = new FileOutputStream("export.xlsx") ) {
             XSSFSheet sheet = workbook.createSheet("Export");
             List<List<String>> data = join();
             int rowNum = 0;
             int cellNum;
+            List<String> headers = Arrays.asList("Sequence", "Bit Score", "Score", "E-value", "Identity", "Positives", "Gaps", "Length", "Accession");
+            Row row = sheet.createRow(rowNum);
+            for (int i = 0; i < headers.size(); i++) {
+                row.createCell(i).setCellValue(headers.get(i));
+            }
+            rowNum++;
             for (List<String> rowContents : data) {
-                Row row = sheet.createRow(rowNum++);
+                row = sheet.createRow(rowNum++);
                 cellNum = 0;
                 for (String cell : rowContents) {
                     row.createCell(cellNum++).setCellValue(cell);
@@ -261,7 +268,7 @@ public class Database {
             }
             workbook.write(output);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new FileNotFoundException("Could not create file");
         }
     }
 

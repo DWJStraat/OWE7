@@ -9,17 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Cleaned up code">
+    <list default="true" id="96907bff-8aa3-4be7-bb53-69bb3eff3586" name="Changes" comment="Processed feedback">
       <change afterPath="$PROJECT_DIR$/.idea/artifacts/OWE7_jar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/BlastScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/BlastScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/UploadScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/UploadScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/blast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/blast.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -62,7 +60,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BioJavaExample.executor": "Run",
+    "Application.GUI.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ORF_BLAST.Main.executor": "Run",
     "Application.blastTest.executor": "Run",
     "Application.main.executor": "Run",
     "JAR Application.OWE7.jar.executor": "Run",
@@ -87,17 +87,17 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/GitHub/OWE7/src/test/resources",
+    "last_opened_file_path": "C:/Users/dstra/Downloads/C7_BLAST.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -114,9 +114,35 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ORF_BLAST.GUI" />
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ORF_BLAST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="OWE7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORF_BLAST.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ORF_BLAST.Main" />
+      <module name="OWE7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ORF_BLAST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,38 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.exportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fundamentals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fundamentals" />
-      <option name="MAIN_CLASS_NAME" value="org.fundamentals.DatabaseTest" />
-      <option name="METHOD_NAME" value="exportTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DummyBlastTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OWE7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.blast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.blast" />
-      <option name="MAIN_CLASS_NAME" value="org.blast.DummyBlastTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OWE7.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/OWE7_jar/OWE7.jar" />
       <method v="2" />
@@ -176,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GUI" />
+        <item itemvalue="Application.ORF_BLAST.Main" />
         <item itemvalue="JAR Application.OWE7.jar" />
         <item itemvalue="JUnit.BlastTest.testBlastRender" />
-        <item itemvalue="JUnit.DatabaseTest.exportTest" />
-        <item itemvalue="JUnit.DummyBlastTest.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +203,10 @@
       <workItem from="1711014590388" duration="14965000" />
       <workItem from="1711042919228" duration="34000" />
       <workItem from="1711369261617" duration="687000" />
-      <workItem from="1711445140162" duration="1992000" />
+      <workItem from="1711445140162" duration="2919000" />
+      <workItem from="1711450480045" duration="238000" />
+      <workItem from="1711458734406" duration="762000" />
+      <workItem from="1711531850075" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -291,7 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711370998536</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Polishing">
+      <option name="closed" value="true" />
+      <created>1711447162480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711447162480</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Processed feedback">
+      <option name="closed" value="true" />
+      <created>1711551473787</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711551473787</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +335,9 @@
     <MESSAGE value="Rewrote XML parser, added a dummy for the blast to reduce testing time" />
     <MESSAGE value="Got SQL working, got export working" />
     <MESSAGE value="Cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
+    <MESSAGE value="Polishing" />
+    <MESSAGE value="Processed feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Processed feedback" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
