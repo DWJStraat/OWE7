@@ -15,9 +15,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fundamentals/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gui/ExportScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,50 +54,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BioJavaExample.executor": "Run",
-    "Application.GUI.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ORF_BLAST.Main.executor": "Run",
-    "Application.blastTest.executor": "Run",
-    "Application.main.executor": "Run",
-    "JAR Application.OWE7.jar.executor": "Run",
-    "JUnit.All in OWE7.executor": "Run",
-    "JUnit.BlastTest.testBlast.executor": "Debug",
-    "JUnit.BlastTest.testBlastDna.executor": "Run",
-    "JUnit.BlastTest.testBlastRender.executor": "Run",
-    "JUnit.DatabaseTest.addTest.executor": "Run",
-    "JUnit.DatabaseTest.exportTest.executor": "Run",
-    "JUnit.DummyBlastTest.testBlast.executor": "Run",
-    "JUnit.DummyBlastTest.testSave.executor": "Run",
-    "JUnit.FastaReaderTest.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReader.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderBlast.executor": "Run",
-    "JUnit.FastaReaderTest.testFastaReaderOutput.executor": "Run",
-    "JUnit.FastaTest.testFastaBlast.executor": "Run",
-    "Java Scratch.scratch.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dstra/Downloads/C7_BLAST.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BioJavaExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ORF_BLAST.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.blastTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.OWE7.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in OWE7.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlastTest.testBlast.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.BlastTest.testBlastDna.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BlastTest.testBlastRender.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DatabaseTest.addTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DatabaseTest.exportTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DummyBlastTest.testBlast.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DummyBlastTest.testSave.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReader.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReaderBlast.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaReaderTest.testFastaReaderOutput.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FastaTest.testFastaBlast.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dstra/Downloads/C7_BLAST.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\OWE7\src\test\resources" />
@@ -206,7 +203,7 @@
       <workItem from="1711445140162" duration="2919000" />
       <workItem from="1711450480045" duration="238000" />
       <workItem from="1711458734406" duration="762000" />
-      <workItem from="1711531850075" duration="3211000" />
+      <workItem from="1711531850075" duration="3552000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit, wrote blast wrapper">
       <option name="closed" value="true" />
@@ -304,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711551473787</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Processed feedback">
+      <option name="closed" value="true" />
+      <created>1711552942016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711552942016</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -3,6 +3,7 @@ package org.fundamentals;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileNotFoundException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -53,7 +54,7 @@ class DatabaseTest {
     }
 
     @Test
-    void exportTest() throws SQLException {
+    void exportTest() throws SQLException, FileNotFoundException {
         Database.exportDb();
     }
 
