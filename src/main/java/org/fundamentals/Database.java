@@ -252,8 +252,14 @@ public class Database {
             List<List<String>> data = join();
             int rowNum = 0;
             int cellNum;
+            List<String> headers = Arrays.asList("Sequence", "Bit Score", "Score", "E-value", "Identity", "Positives", "Gaps", "Length", "Accession");
+            Row row = sheet.createRow(rowNum);
+            for(int i = 0; i < headers.size(); i++){
+                row.createCell(i).setCellValue(headers.get(i));
+            }
+            rowNum++;
             for (List<String> rowContents : data) {
-                Row row = sheet.createRow(rowNum++);
+                row = sheet.createRow(rowNum++);
                 cellNum = 0;
                 for (String cell : rowContents) {
                     row.createCell(cellNum++).setCellValue(cell);

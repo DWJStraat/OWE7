@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class FastaBucket {
     private static final ArrayList<FastaReader> fastaList = new ArrayList<>();
     private static final ArrayList<String> hashList = new ArrayList<>();
-
+    private FastaBucket() {
+    }
     public static void add(FastaReader reader) throws IllegalArgumentException{
         if (hashList.contains(reader.getHash())){
             throw new IllegalArgumentException("File already exists in the bucket");
